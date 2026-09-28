@@ -1,0 +1,488 @@
+{
+  "created_at": "2026-09-27T14:44:55+08:00",
+  "status": "FROZEN_FUXIAN_TO_THREE_LAKE_ZERO_SHOT_EVALUATION",
+  "external_training_or_tuning": false,
+  "reference_status": "prediction-blind automatic S2 drafts frozen after model-independent visual review; all dates retained",
+  "reference_freeze_manifest": "preexperiment/results/q2_external/screened_reference_freeze/external_reference_freeze_manifest.json",
+  "reference_freeze_sha256": "327fe33d2812f59b8bb7fa3256cda18240d83eb5b579ee573f89df2db4a1a33a",
+  "hard_spatial_constraint_applied": true,
+  "prior_boundary_definition": "outer shoreline of the named target lake; internal holes filled before the 300 m band is generated; Dianchi Waihai separated from Caohai by fixed northing 2763300 m in EPSG:32648",
+  "records": [
+    {
+      "lake": "Dianchi_Waihai",
+      "l8_date": "20200118",
+      "s2_date": "20200117",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Dianchi_Waihai_20200118_20200117_L8.tif",
+          "sha256": "a30e39ba1a4f7ccb75ff1b6154d80dbb3615e31e8a4bb4bb0a628db93cfeaa09"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-002/Q2_FAST_Dianchi_Waihai_20200118_20200117_S2.tif",
+          "sha256": "2b601c0068d2f4abb7811cd096f0fd35f619478796b1fd33b5f89a5c79bcb79b"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Dianchi_Waihai_20200118_20200117_QA_JRC.tif",
+          "sha256": "3eab9450d19f7cf40b8124b4cce0af191f2adbaf2b5d4cefb1a873fef3153a7d"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Dianchi_Waihai/20200118/S2_water_DRAFT_10m.tif",
+          "sha256": "a8a690f491cc6e0d3bfb8571c4f9b580a8d6207fb0514290ae0ae2ba4c22ee64"
+        }
+      }
+    },
+    {
+      "lake": "Dianchi_Waihai",
+      "l8_date": "20200728",
+      "s2_date": "20200730",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Dianchi_Waihai_20200728_20200728_L8.tif",
+          "sha256": "a56bcac14e82048c5c4bcd805d621d3465e64cad848954b65021d6737ebe2261"
+        },
+        "s2": {
+          "path": "drive-download-20260923T094631Z-1-001/Q2_FAST_Dianchi_Waihai_20200728_20200730_S2.tif",
+          "sha256": "2665fe6cc5199c01ed0d56238fd68fd8c2b5e427d68f6bf29a03d0ad22c0a0d7"
+        },
+        "qa": {
+          "path": "drive-download-20260923T094631Z-1-001/Q2_FAST_Dianchi_Waihai_20200728_20200730_QA_JRC.tif",
+          "sha256": "edf3a13e3f61c556cd06834ab629a6e8ff96393319c504ac1fdde30bb66a0eb8"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Dianchi_Waihai/20200728/S2_water_DRAFT_10m.tif",
+          "sha256": "26b0dd6b1426c4ea23a894e26c8755a38fa59d21c7098f0ef8843252f5a0142a"
+        }
+      }
+    },
+    {
+      "lake": "Dianchi_Waihai",
+      "l8_date": "20220312",
+      "s2_date": "20220312",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Dianchi_Waihai_20220312_20220310_L8.tif",
+          "sha256": "dc96148b57835930d62062ab671f8fa3566d0ea3312f073306d5935073207c53"
+        },
+        "s2": {
+          "path": "drive-download-20260923T094631Z-1-001/Q2_FAST_Dianchi_Waihai_20220312_20220312_S2.tif",
+          "sha256": "710af87b2df0c001d2587e22bd29ef89da31ae4227565c8c0595f576a6eccc35"
+        },
+        "qa": {
+          "path": "drive-download-20260923T094631Z-1-001/Q2_FAST_Dianchi_Waihai_20220312_20220312_QA_JRC.tif",
+          "sha256": "3f3d2a3b51cc4fc165edd1d79e7c3284cdef6d2bc85154dab72ec8b5ecf4aa6f"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Dianchi_Waihai/20220312/S2_water_DRAFT_10m.tif",
+          "sha256": "4907395526305a5463b8cd9c6e2e196dcd04c86dcabf2e38152fb6677556963f"
+        }
+      }
+    },
+    {
+      "lake": "Dianchi_Waihai",
+      "l8_date": "20220819",
+      "s2_date": "20220819",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Dianchi_Waihai_20220819_20220819_L8.tif",
+          "sha256": "aa0fe82ce3479426f19b737a10ad660a0cd1e01c05ed94268c985c55051a0d63"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-002/Q2_FAST_Dianchi_Waihai_20220819_20220819_S2.tif",
+          "sha256": "c8a79517ce349a89fcd08db7e4fa849f5209384b7f18699a176e914e87d784a1"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Dianchi_Waihai_20220819_20220819_QA_JRC.tif",
+          "sha256": "15038e9fc6e919093c2efff07c3643d710ad80932d7f33542728feaae8a492cc"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Dianchi_Waihai/20220819/S2_water_DRAFT_10m.tif",
+          "sha256": "9a1ec0654a23967c6da87097a31dc2e5c74a72a9f3e624035d3979b5c4400365"
+        }
+      }
+    },
+    {
+      "lake": "Dianchi_Waihai",
+      "l8_date": "20230126",
+      "s2_date": "20230126",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "drive-download-20260923T095357Z-1-001/Q2_FAST_Dianchi_Waihai_20230126_20230126_L8.tif",
+          "sha256": "d6d7cca86765f58a3ddfe364ef454d21892b50237f0e5a79bd61d04842d8bc07"
+        },
+        "s2": {
+          "path": "drive-download-20260923T095357Z-1-001/Q2_FAST_Dianchi_Waihai_20230126_20230126_S2.tif",
+          "sha256": "4a6f5cec46224ee018f7ce525b459d845d6e0b28e236e369ce8330d58d8ca39d"
+        },
+        "qa": {
+          "path": "drive-download-20260923T095357Z-1-001/Q2_FAST_Dianchi_Waihai_20230126_20230126_QA_JRC.tif",
+          "sha256": "9a005bc9bbe576e5df845aa496975f32c76ae8a6d9910cd6c1b2c781bb6fee3f"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Dianchi_Waihai/20230126/S2_water_DRAFT_10m.tif",
+          "sha256": "49a020bf6862f73f6f259c640eab7c81db071e6743d32335fc232f4a974e1f6e"
+        }
+      }
+    },
+    {
+      "lake": "Dianchi_Waihai",
+      "l8_date": "20240824",
+      "s2_date": "20240828",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "drive-download-20260923T124126Z-1-001/Q2_FAST_Dianchi_Waihai_20240824_20240828_L8.tif",
+          "sha256": "674ac10231fc2bd23742f8a2612349afe21dc27f4bb6d93f70570e2076b6246b"
+        },
+        "s2": {
+          "path": "drive-download-20260923T124126Z-1-001/Q2_FAST_Dianchi_Waihai_20240824_20240828_S2.tif",
+          "sha256": "3519dfb3a850329b160e11b6b70d5cdd556a22ba7635589b8a0abd6895bdaf0c"
+        },
+        "qa": {
+          "path": "drive-download-20260923T124126Z-1-001/Q2_FAST_Dianchi_Waihai_20240824_20240828_QA_JRC.tif",
+          "sha256": "1423d814fb11b53d489f18bcf4c65b86457483199a162f94450e3d521c8a3698"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Dianchi_Waihai/20240824/S2_water_DRAFT_10m.tif",
+          "sha256": "f98f5a2f4bdc6c7418cbb52550fc21f8d92235c5fbe726fadd2515fc49a4cf5f"
+        }
+      }
+    },
+    {
+      "lake": "Erhai",
+      "l8_date": "20200827",
+      "s2_date": "20200827",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20200827_20200827_L8.tif",
+          "sha256": "523140b2e094a806e723a3636407501c45899292db2a5626c3112741c97663ef"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-002/Q2_FAST_Erhai_20200827_20200827_S2.tif",
+          "sha256": "9e98cc670172359e0f860770886aa770dbd64538e99bd24639ea2e99f078bbca"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20200827_20200827_QA_JRC.tif",
+          "sha256": "b1e8b2c7633b021bd7dff35656728fb127836eba349e65fce178acdd72e0ee11"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Erhai/20200827/S2_water_DRAFT_10m.tif",
+          "sha256": "baeae0a7833e93f25f201dff0301f4c973f405fe1ae8484d52fc6063e6087d98"
+        }
+      }
+    },
+    {
+      "lake": "Erhai",
+      "l8_date": "20210102",
+      "s2_date": "20210104",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20210102_20210104_L8.tif",
+          "sha256": "664853f183020c72cd5fc1ca0ec32ad87144e7d6bdd6a55549a3eae2cbebdfaa"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-002/Q2_FAST_Erhai_20210102_20210104_S2.tif",
+          "sha256": "45e38317842935b4111f200efd05216c29be551284d54eeb7327bc4aa4b887ad"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20210102_20210104_QA_JRC.tif",
+          "sha256": "90ffcc5977b9ffab4455715a8f32eda97afa93d3d3d45961bcc38a4aa19edace"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Erhai/20210102/S2_water_DRAFT_10m.tif",
+          "sha256": "ca32b9133f62ef8d4b0ef0d72c9043a36c26f9db2500c3e1b747004ef9c747c7"
+        }
+      }
+    },
+    {
+      "lake": "Erhai",
+      "l8_date": "20221121",
+      "s2_date": "20221118",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20221121_20221118_L8.tif",
+          "sha256": "80665de7e1b7448bc2d1c05f57b97f6d9d760e928a3fcaaf084987a1208f800b"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20221121_20221118_S2.tif",
+          "sha256": "1ab5a0b900d4b23b2c5785ffb094662cc8ceec67f8fff7385bea0c8fc53ed725"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20221121_20221118_QA_JRC.tif",
+          "sha256": "56d80df1215d6fb628b5c874ca65e69d78c11e041dda72a340ba32a0fe26920e"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Erhai/20221121/S2_water_DRAFT_10m.tif",
+          "sha256": "98fc32d447b0c99f5c39b7a3a3749a60d45b4581d34d47b19baf613f16278d12"
+        }
+      }
+    },
+    {
+      "lake": "Erhai",
+      "l8_date": "20230601",
+      "s2_date": "20230529",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20230601_20230529_L8.tif",
+          "sha256": "bc0c4534e8ce9048c9d461328b50908ab1a1ab2f6d13f098cb1cf7abc8f065a2"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20230601_20230529_S2.tif",
+          "sha256": "c10ca201b925baee7a22e15bfc4bee3c5c9423012b79379e6d344d9e0c754984"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20230601_20230529_QA_JRC.tif",
+          "sha256": "dce5b1a0d915629cd26b837d5d0a30a7c2c73f1b8eb95373b42b4882e382ba39"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Erhai/20230601/S2_water_DRAFT_10m.tif",
+          "sha256": "67085038e7621b85e19e8de6e1ec2cb0b21bdc640967583cc6da2874d3f39a2e"
+        }
+      }
+    },
+    {
+      "lake": "Erhai",
+      "l8_date": "20251028",
+      "s2_date": "20251027",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20251028_20251027_L8.tif",
+          "sha256": "dd79bec22386e9cbbc5a77e4f75c56e7a020f6443d4a37ba892fe6e21359f84c"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-002/Q2_FAST_Erhai_20251028_20251027_S2.tif",
+          "sha256": "3f9de3c4e500ac68937426ff971faf8673044f744518b19c4618d0e75d9f0908"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20251028_20251027_QA_JRC.tif",
+          "sha256": "d7d0262bb836f940775de015f3b111036c1c7ffbd052b81643af74681a1a03b2"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Erhai/20251028/S2_water_DRAFT_10m.tif",
+          "sha256": "edd4b38a6ebb104f063cedd538a6523ec6cc46bb992395c93e86d3b734984041"
+        }
+      }
+    },
+    {
+      "lake": "Erhai",
+      "l8_date": "20251129",
+      "s2_date": "20251129",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20251129_20251129_L8.tif",
+          "sha256": "2f59bc421d1d8a3799fc5226d0fbd6e0d8790683ab5a55df5bd63cd6a1a8e260"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-002/Q2_FAST_Erhai_20251129_20251129_S2.tif",
+          "sha256": "22d4682f0d064bedbf88e9e378a29dfb29361687c03d9d369707514bbb3f1f74"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Erhai_20251129_20251129_QA_JRC.tif",
+          "sha256": "03abc3b46a89d4e24d80059b7968363d815b0e34c2bc21280f7c88adf2e685c3"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Erhai/20251129/S2_water_DRAFT_10m.tif",
+          "sha256": "2026cdde9bb373b1df7d786589da7ec04f085b601ad5ee9768d7fbeffae89b7d"
+        }
+      }
+    },
+    {
+      "lake": "Xingyun",
+      "l8_date": "20200118",
+      "s2_date": "20200117",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20200118_20200117_L8.tif",
+          "sha256": "d75cdb783026add147601ab71b766c1c5cf6e7aa39545fde4a47c958c3dbc310"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20200118_20200117_S2.tif",
+          "sha256": "2357f33bf813c13d85599cbfd86e6d1b74a4e6d7b01ec385b5694df741fcde5f"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20200118_20200117_QA_JRC.tif",
+          "sha256": "44b66df4478ae86a828a50b072abac515b096b25e0db3e1965ca0da948483a05"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Xingyun/20200118/S2_water_DRAFT_10m.tif",
+          "sha256": "e09ebefcfff8edbb9668176246c14fc0115e29641578983f75deda5e1a26c4f2"
+        }
+      }
+    },
+    {
+      "lake": "Xingyun",
+      "l8_date": "20200728",
+      "s2_date": "20200730",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20200728_20200730_L8.tif",
+          "sha256": "99ee5ad2a4f007aab31feb470be0179cc212cb38243067416173baba64e7c493"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20200728_20200730_S2.tif",
+          "sha256": "afc8e265cb382e6cf835f6b04c319a8daf4175a49240d22907134971dd15a8d7"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20200728_20200730_QA_JRC.tif",
+          "sha256": "69d94bf56588a7ba04f9d4bc2781dc867a5bfd95d3c74382f01e8c6cfd327823"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Xingyun/20200728/S2_water_DRAFT_10m.tif",
+          "sha256": "bf18d3b3745ca9024cef794ba54fb50ae3cf4f12bac519d8611436b07836b1a4"
+        }
+      }
+    },
+    {
+      "lake": "Xingyun",
+      "l8_date": "20220312",
+      "s2_date": "20220312",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20220312_20220312_L8.tif",
+          "sha256": "e8cf7f18f33e10839289d0facf2dfd0b5780e6bb033e14a0089f081961bc57b7"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20220312_20220312_S2.tif",
+          "sha256": "21b94b3051191767aaa6fac48cac67a8cdde84cd1fce2613ff57955f5f4b340d"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20220312_20220312_QA_JRC.tif",
+          "sha256": "9b6966d509b42b3fc0e45cd6b2c69e9878f5c215e0a84874ced77a668dce8c72"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Xingyun/20220312/S2_water_DRAFT_10m.tif",
+          "sha256": "51e61221325b1384396ee1b5301c93556216b38290dcb993c7a05e32355770ba"
+        }
+      }
+    },
+    {
+      "lake": "Xingyun",
+      "l8_date": "20220819",
+      "s2_date": "20220819",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20220819_20220819_L8.tif",
+          "sha256": "866f08f7e42065c1d69f9b7c6fce8ff8b39fb970e039ae3fa09ae71d6e90f38f"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20220819_20220819_S2.tif",
+          "sha256": "6eb961fa535e5a5e14cf1bb071ba60b4c52b623b842abaed9ed6526727eba618"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20220819_20220819_QA_JRC.tif",
+          "sha256": "5188b17fcd6a877f056b02a6e8828998501bbaab4f3e38765c9c0e7ad1ae4e21"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Xingyun/20220819/S2_water_DRAFT_10m.tif",
+          "sha256": "b3eba10dc6d775ab443261a129034f911135b804c554e3275dac11fd4c11cba9"
+        }
+      }
+    },
+    {
+      "lake": "Xingyun",
+      "l8_date": "20230126",
+      "s2_date": "20230126",
+      "season": "dry",
+      "files": {
+        "l8": {
+          "path": "drive-download-20260923T095357Z-1-001/Q2_FAST_Xingyun_20230126_20230126_L8.tif",
+          "sha256": "7e79e229abcc1cee09c00a43d7ec2b6ea948675ea8adea8f4b2c668c068ce6c3"
+        },
+        "s2": {
+          "path": "drive-download-20260923T095357Z-1-001/Q2_FAST_Xingyun_20230126_20230126_S2.tif",
+          "sha256": "a44e48854aa25fcf70ab9861e25b59cb5a40888eb1f6d6f2b76c2c5c966819af"
+        },
+        "qa": {
+          "path": "drive-download-20260923T095357Z-1-001/Q2_FAST_Xingyun_20230126_20230126_QA_JRC.tif",
+          "sha256": "82c99c26344ccc44d798fb2af9e5e836730f33d2c4d5285c5554585e3d49c598"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Xingyun/20230126/S2_water_DRAFT_10m.tif",
+          "sha256": "05ac80bc7e0e0c907a30358ca9ea6635bce1eef7dbdf8eef2909aff6e5771061"
+        }
+      }
+    },
+    {
+      "lake": "Xingyun",
+      "l8_date": "20241027",
+      "s2_date": "20241027",
+      "season": "wet",
+      "files": {
+        "l8": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20241027_20241027_L8.tif",
+          "sha256": "8d0e667c0d68011e1eb276aedbfde3394795e88e8781f90745bece043ab070a1"
+        },
+        "s2": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20241027_20241027_S2.tif",
+          "sha256": "93b48ec424dfa411b4125cd9ef5536a529acc6cfd0a1400a1ed6547ff29b117f"
+        },
+        "qa": {
+          "path": "跨湖测试/drive-download-20260923T080829Z-1-001/Q2_FAST_Xingyun_20241027_20241027_QA_JRC.tif",
+          "sha256": "35b0446946fd61cb89d34bdb444139c861cea2860bbfabf2e3b2607de27a0693"
+        },
+        "draft": {
+          "path": "preexperiment/results/q2_external/reference_drafts/Xingyun/20241027/S2_water_DRAFT_10m.tif",
+          "sha256": "d138a25c7cec22f2d6e9a9cd4b9ec1a2a1acff41f806c8c7217ea3761e3d5f8a"
+        }
+      }
+    }
+  ],
+  "checkpoints": {
+    "spatial_prior": {
+      "20260913": {
+        "path": "preexperiment/results/round4_fusion_confirmation/prior_seed20260913_best.pt",
+        "sha256": "58d7f4ae88742a7ff97765e6da1813bdbff2d0fcbd9fc96dbb9aa3b7ae9e46a0"
+      },
+      "20260929": {
+        "path": "preexperiment/results/round4_fusion_confirmation/prior_seed20260929_best.pt",
+        "sha256": "509ac6be6643b337590c124afdf59bb592c37d990d8531d77becfca8597c44ff"
+      },
+      "20261017": {
+        "path": "preexperiment/results/round4_fusion_confirmation/prior_seed20261017_best.pt",
+        "sha256": "fc16e7ae344204d28d95d0827bba63907d95dd2577cf9915b89c56077591bbd6"
+      }
+    },
+    "deep_prewitt": {
+      "20260913": {
+        "path": "preexperiment/results/deep_edge_component_ablation/deep_prewitt_only_seed20260913_best.pt",
+        "sha256": "d5a6b5430a250624a70a03ecf976c569e2a281cfd3a21f15914efb1572ab891b"
+      },
+      "20260929": {
+        "path": "preexperiment/results/deep_edge_component_ablation/deep_prewitt_only_seed20260929_best.pt",
+        "sha256": "995f60be9379686d8235e275c9c6b4bd826d4b655ffbcfcade2deea8bb421b0a"
+      },
+      "20261017": {
+        "path": "preexperiment/results/deep_edge_component_ablation/deep_prewitt_only_seed20261017_best.pt",
+        "sha256": "3b833094650f2fd25b1bd884dbe4071d537bed418980b05f51abd5f0d21c26d2"
+      }
+    },
+    "parameter_matched_ordinary_conv": {
+      "20260913": {
+        "path": "preexperiment/results/parameter_matched_conv_control/matched_conv_seed20260913_best.pt",
+        "sha256": "50e5eb7932d0536781150d509a48b212d5258d0a53dfe14428541a26598eb8ab"
+      },
+      "20260929": {
+        "path": "preexperiment/results/parameter_matched_conv_control/matched_conv_seed20260929_best.pt",
+        "sha256": "c819df60d2d2caa9642ff1edb06c079fda012633509bc5f8237401085413280e"
+      },
+      "20261017": {
+        "path": "preexperiment/results/parameter_matched_conv_control/matched_conv_seed20261017_best.pt",
+        "sha256": "288851783bc4e56dac28a19894abd952cb7511b97d1adb61ddbf9b10a823d1d4"
+      }
+    }
+  }
+}

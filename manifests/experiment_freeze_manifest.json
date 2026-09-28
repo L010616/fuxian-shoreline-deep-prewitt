@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-09-14T13:46:32+08:00",
+  "status": "EXPERIMENTS_AND_INDEPENDENT_REFERENCE_AUDIT_COMPLETE",
+  "no_further_test_guided_tuning": true,
+  "files": [
+    {
+      "path": "preexperiment\\results\\locked_four_date_model_comparison_v01\\model_comparison_test_results.json",
+      "sha256": "f718df9874deefd00be9dbef32e081e10fbd7993f23a7e8647594536c7dab12b"
+    },
+    {
+      "path": "preexperiment\\results\\locked_four_date_ablation_v01\\ablation_test_results.json",
+      "sha256": "d922f4b76ac08c356fd26e8a6bbf26fa7f41e67bc90857ab6cfc6d1454feac45"
+    },
+    {
+      "path": "preexperiment\\manuscript_ready\\final_test\\four_date_test_results.json",
+      "sha256": "a4fec1d4ec238246b659d68ea095b22569630a9075380d85b96c324ebc2a0244"
+    },
+    {
+      "path": "preexperiment\\manuscript_ready\\table_model_efficiency.json",
+      "sha256": "827edcec54b4cca7cb9606b12c1d074e216c4eeb9b1e7ea76f86fd320da88790"
+    },
+    {
+      "path": "preexperiment\\results\\formal_test_drafts_v02\\manual_review_v01\\pilot_test_reference_v01\\pilot_test_reference_manifest.json",
+      "sha256": "674d4a4938031a9e5c5e84ccba19c0aab227575be4492e9da5689aae436d6b16"
+    },
+    {
+      "path": "preexperiment\\results\\formal_test_drafts_v03_additional\\screened_reference_v01\\screened_reference_manifest.json",
+      "sha256": "b3eb00db10feeed4976dd2d623a6c396db8ba3c12de8485aee9baeea6179f37f"
+    }
+  ],
+  "independent_reference_audit": {
+    "status": "INDEPENDENT_USER_SPOT_CHECK_PASSED",
+    "sites": 24,
+    "path": "preexperiment\\manuscript_ready\\reference_spot_check_24\\independent_user_signoff.json",
+    "sha256": "934410c9621e0d314b62084cfadd48db0d2b981f75da71a2d0e1386adc103f91"
+  },
+  "six_year_application": {
+    "status": "SIX_YEAR_APPLICATION_COMPLETE",
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "manifest": "preexperiment\\manuscript_ready\\six_year_application_2020_2025\\six_year_application_manifest.json",
+    "manifest_sha256": "0111bdeaecdd5f8c89ac088ccab4e438e7b13eb57e26b2688fdac35ed100618d",
+    "figure_2x3": "preexperiment\\manuscript_ready\\six_year_application_2020_2025\\figure_six_year_shorelines_2x3.pdf",
+    "figure_2x3_sha256": "130dafc0d84bda0821a4efbe46f864f057651e1411c5fa6bbaf826812c14521b",
+    "dates": [
+      "2020-05-09",
+      "2021-02-05",
+      "2022-03-12",
+      "2023-01-26",
+      "2024-02-14",
+      "2025-12-01"
+    ]
+  }
+}

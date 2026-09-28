@@ -1,0 +1,571 @@
+{
+  "created_at": "2026-09-22T18:06:29+08:00",
+  "status": "PREWITT_CONFIRMATION_SET3_INPUTS_VALIDATED_BEFORE_REFERENCE_SCREENING",
+  "selection_rule": "One quality-ranked unused pair per calendar year from 2020 through 2025; no model output used",
+  "date_count": 6,
+  "analysis_file_count": 18,
+  "allow_training": false,
+  "allow_model_selection": false,
+  "allow_threshold_tuning": false,
+  "allow_model_predictions_before_reference_freeze": false,
+  "records": [
+    {
+      "l8_date": "2022-11-23",
+      "s2_date": "2022-11-27",
+      "calendar_gap_days": 4,
+      "window": "fixed_prediction_blind_shortlist",
+      "season": "mixed",
+      "l8_clear_shore": 0.9561731483188077,
+      "s2_clear_shore": 1.0,
+      "quality_score": 0.8958952315753445,
+      "files": {
+        "l8": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_L8_native_20221123.tif",
+        "s2": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_S2_20221127_for_20221123.tif",
+        "mask": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_masks_native_20221123.tif"
+      },
+      "sha256": {
+        "l8": "a0c0e454224de4bc89a0d2d5d5ff4c161850ddf0000c6b77e2d56e1c93caf43c",
+        "s2": "2a30c52e2501c37cd8a3c35a2b6366fff7965f55f8240b2dac70dc28c5622d82",
+        "mask": "4351d1744960efada79082ce5a8ad9550f5d595ce6027546d9f639abedb1d2e7"
+      },
+      "raster_signature": {
+        "l8": {
+          "bands": 7,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0
+        },
+        "s2": {
+          "bands": 8,
+          "width": 1623,
+          "height": 3281,
+          "crs": "EPSG:32648",
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0
+        },
+        "mask": {
+          "bands": 5,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null
+        }
+      }
+    },
+    {
+      "l8_date": "2022-11-07",
+      "s2_date": "2022-11-07",
+      "calendar_gap_days": 0,
+      "window": "fixed_prediction_blind_shortlist",
+      "season": "mixed",
+      "l8_clear_shore": 0.8270033439532369,
+      "s2_clear_shore": 0.8823716961989287,
+      "quality_score": 0.8519191024637983,
+      "files": {
+        "l8": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_L8_native_20221107.tif",
+        "s2": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_S2_20221107_for_20221107.tif",
+        "mask": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_masks_native_20221107.tif"
+      },
+      "sha256": {
+        "l8": "be9c77c493ffb866eb0ab23d007419d2b1d540821c1f81bf3dca3a4cff1ccc14",
+        "s2": "8ed6fff1f4548519872dbaa8f65a7d77d9cb86f9985baf67e0a670f436043134",
+        "mask": "920f2cf28d507bf7242ab33d8eda54400562f39205dc99151ed0d3a7ffc58d49"
+      },
+      "raster_signature": {
+        "l8": {
+          "bands": 7,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0
+        },
+        "s2": {
+          "bands": 8,
+          "width": 1623,
+          "height": 3281,
+          "crs": "EPSG:32648",
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0
+        },
+        "mask": {
+          "bands": 5,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null
+        }
+      }
+    },
+    {
+      "l8_date": "2020-03-06",
+      "s2_date": "2020-03-02",
+      "calendar_gap_days": 4,
+      "window": "fixed_prediction_blind_shortlist",
+      "season": "mixed",
+      "l8_clear_shore": 0.873100463413992,
+      "s2_clear_shore": 1.0,
+      "quality_score": 0.8502052548776956,
+      "files": {
+        "l8": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_L8_native_20200306.tif",
+        "s2": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_S2_20200302_for_20200306.tif",
+        "mask": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_masks_native_20200306.tif"
+      },
+      "sha256": {
+        "l8": "254fd16f2c16603ccb0619ba20ed9764e2894768a21aa189aac0f03905ed642e",
+        "s2": "6f0bc59f7e782915ffc3981c31f23b47d7fbd1fa68abf5b1916e9cabda66f256",
+        "mask": "08ca34497934419c3eebaae103b3735dbc77ba8a6895e30b6e669bcdc9708e2f"
+      },
+      "raster_signature": {
+        "l8": {
+          "bands": 7,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0
+        },
+        "s2": {
+          "bands": 8,
+          "width": 1623,
+          "height": 3281,
+          "crs": "EPSG:32648",
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0
+        },
+        "mask": {
+          "bands": 5,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null
+        }
+      }
+    },
+    {
+      "l8_date": "2020-02-03",
+      "s2_date": "2020-02-06",
+      "calendar_gap_days": 3,
+      "window": "fixed_prediction_blind_shortlist",
+      "season": "mixed",
+      "l8_clear_shore": 0.8459638221122197,
+      "s2_clear_shore": 0.9453565309183358,
+      "quality_score": 0.8306905410749719,
+      "files": {
+        "l8": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_L8_native_20200203.tif",
+        "s2": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_S2_20200206_for_20200203.tif",
+        "mask": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_masks_native_20200203.tif"
+      },
+      "sha256": {
+        "l8": "62a9e6e523cb21ee330e2f57add1ccc082980a0ff3ff095d9515bc909e051eac",
+        "s2": "e84c68ca3321b45b102d31602d78dc90b85f462115740d7c159f9e8ea034619d",
+        "mask": "48ab635405691ef83bdcc24893c26c6ca5a61d3bd4142b5d5d49172308b17426"
+      },
+      "raster_signature": {
+        "l8": {
+          "bands": 7,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0
+        },
+        "s2": {
+          "bands": 8,
+          "width": 1623,
+          "height": 3281,
+          "crs": "EPSG:32648",
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0
+        },
+        "mask": {
+          "bands": 5,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null
+        }
+      }
+    },
+    {
+      "l8_date": "2020-02-19",
+      "s2_date": "2020-02-21",
+      "calendar_gap_days": 2,
+      "window": "fixed_prediction_blind_shortlist",
+      "season": "mixed",
+      "l8_clear_shore": 0.8840101108507332,
+      "s2_clear_shore": 0.7703792704083546,
+      "quality_score": 0.7928762326516628,
+      "files": {
+        "l8": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_L8_native_20200219.tif",
+        "s2": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_S2_20200221_for_20200219.tif",
+        "mask": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_masks_native_20200219.tif"
+      },
+      "sha256": {
+        "l8": "d1f2c722f7d7fdb323ae72ba4f9c0303574c56cce27c5057e3cd7fb9732b0a28",
+        "s2": "b972f70069bfdaae57902ce077fb4148c504b7bfb682614126cb5450c6fe27a7",
+        "mask": "76592489aec85b977285dd7634d3d42555522f7da757fed651a8f0059a2b0847"
+      },
+      "raster_signature": {
+        "l8": {
+          "bands": 7,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0
+        },
+        "s2": {
+          "bands": 8,
+          "width": 1623,
+          "height": 3281,
+          "crs": "EPSG:32648",
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0
+        },
+        "mask": {
+          "bands": 5,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null
+        }
+      }
+    },
+    {
+      "l8_date": "2024-12-30",
+      "s2_date": "2024-12-26",
+      "calendar_gap_days": 4,
+      "window": "fixed_prediction_blind_shortlist",
+      "season": "mixed",
+      "l8_clear_shore": 0.9337007951762816,
+      "s2_clear_shore": 0.7648964736796166,
+      "quality_score": 0.7777388505027825,
+      "files": {
+        "l8": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_L8_native_20241230.tif",
+        "s2": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_S2_20241226_for_20241230.tif",
+        "mask": "preexperiment/data/prewitt_confirmation_set3/analysis_ready/Fuxian_prewitt_confirm_set3_masks_native_20241230.tif"
+      },
+      "sha256": {
+        "l8": "21b7f9aa075313f19470dd765c2860660b7126f373ca3387327a29b5a9306fcd",
+        "s2": "20f166b3c293a8dcf1f372e41d57e8549af888363f3859a53999dbda9526d35c",
+        "mask": "3743d78ebb6465c183ce5b1d0b2279cf0beac1db298986ab2cf9437e5b329fb5"
+      },
+      "raster_signature": {
+        "l8": {
+          "bands": 7,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0
+        },
+        "s2": {
+          "bands": 8,
+          "width": 1623,
+          "height": 3281,
+          "crs": "EPSG:32648",
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0
+        },
+        "mask": {
+          "bands": 5,
+          "width": 542,
+          "height": 1095,
+          "crs": "EPSG:32648",
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null
+        }
+      }
+    }
+  ]
+}
