@@ -1,0 +1,40 @@
+{
+  "selected": [
+    {
+      "l8_date": "2024-01-13",
+      "s2_date": "2024-01-11",
+      "calendar_gap_days": 2,
+      "quality_class": "FINAL_BLIND"
+    },
+    {
+      "l8_date": "2024-08-24",
+      "s2_date": "2024-08-23",
+      "calendar_gap_days": 1,
+      "quality_class": "FINAL_BLIND"
+    },
+    {
+      "l8_date": "2025-03-04",
+      "s2_date": "2025-03-01",
+      "calendar_gap_days": 3,
+      "quality_class": "FINAL_BLIND"
+    },
+    {
+      "l8_date": "2026-04-24",
+      "s2_date": "2026-04-25",
+      "calendar_gap_days": 1,
+      "quality_class": "FINAL_BLIND"
+    },
+    {
+      "l8_date": "2026-08-14",
+      "s2_date": "2026-08-13",
+      "calendar_gap_days": 1,
+      "quality_class": "FINAL_BLIND"
+    },
+    {
+      "l8_date": "2026-05-26",
+      "s2_date": "2026-05-25",
+      "calendar_gap_days": 1,
+      "quality_class": "FINAL_BLIND"
+    }
+  ]
+}

@@ -1,0 +1,1139 @@
+{
+  "created_at": "2026-09-16T02:12:50+08:00",
+  "status": "PASS",
+  "dates": 6,
+  "files": 18,
+  "training_allowed": false,
+  "model_selection_allowed": false,
+  "threshold_tuning_allowed": false,
+  "records": [
+    {
+      "l8_date": "2024-01-13",
+      "s2_date": "2024-01-11",
+      "split": "final_blind_test",
+      "download_complete": true,
+      "files": {
+        "l8": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_L8_native_20240113.tif",
+          "size_bytes": 21523837,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 7,
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "valid"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "sample_min": [
+            -9999.0,
+            -9999.0,
+            -9999.0,
+            -0.13999499380588531,
+            -0.013000000268220901,
+            0.0002275000006193295,
+            0.0
+          ],
+          "sample_max": [
+            1.0234475135803223,
+            1.0070024728775024,
+            1.0201200246810913,
+            1.01808500289917,
+            0.870437502861023,
+            0.7825474739074707,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "s2": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_S2_20240111_for_20240113.tif",
+          "size_bytes": 90611296,
+          "crs": "EPSG:32648",
+          "shape": [
+            3281,
+            1623
+          ],
+          "count": 8,
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11",
+            "B12",
+            "SCL",
+            "s2_valid"
+          ],
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "sample_min": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            6.0,
+            0.0,
+            2.0,
+            0.0
+          ],
+          "sample_max": [
+            18776.0,
+            17736.0,
+            16952.0,
+            16168.0,
+            15325.0,
+            15196.0,
+            9.0,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "masks": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_masks_native_20240113.tif",
+          "size_bytes": 160523,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 5,
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null,
+          "descriptions": [
+            "shore_zone",
+            "l8_valid",
+            "s2_valid",
+            "joint_valid",
+            "roi_zone"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "unique_values": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "shore_pixels": 59561,
+          "joint_valid_fraction_on_shore": 0.6479911351387653,
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "l8_date": "2024-08-24",
+      "s2_date": "2024-08-23",
+      "split": "final_blind_test",
+      "download_complete": true,
+      "files": {
+        "l8": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_L8_native_20240824.tif",
+          "size_bytes": 22199814,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 7,
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "valid"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "sample_min": [
+            -9999.0,
+            -0.1307550072669983,
+            -0.1504725068807602,
+            -0.031369999051094055,
+            -0.005520000122487545,
+            0.00025499999173916876,
+            0.0
+          ],
+          "sample_max": [
+            1.1145274639129639,
+            1.0990999937057495,
+            1.1342450380325317,
+            1.1678775548934937,
+            1.1333099603652954,
+            0.7540299892425537,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "s2": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_S2_20240823_for_20240824.tif",
+          "size_bytes": 86888869,
+          "crs": "EPSG:32648",
+          "shape": [
+            3281,
+            1623
+          ],
+          "count": 8,
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11",
+            "B12",
+            "SCL",
+            "s2_valid"
+          ],
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "sample_min": [
+            8.0,
+            0.0,
+            0.0,
+            0.0,
+            35.0,
+            44.0,
+            2.0,
+            0.0
+          ],
+          "sample_max": [
+            18248.0,
+            16840.0,
+            15992.0,
+            14168.0,
+            9870.0,
+            10008.0,
+            9.0,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "masks": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_masks_native_20240824.tif",
+          "size_bytes": 151055,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 5,
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null,
+          "descriptions": [
+            "shore_zone",
+            "l8_valid",
+            "s2_valid",
+            "joint_valid",
+            "roi_zone"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "unique_values": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "shore_pixels": 59561,
+          "joint_valid_fraction_on_shore": 0.6789677809304746,
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "l8_date": "2025-03-04",
+      "s2_date": "2025-03-01",
+      "split": "final_blind_test",
+      "download_complete": true,
+      "files": {
+        "l8": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_L8_native_20250304.tif",
+          "size_bytes": 21518593,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 7,
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "valid"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "sample_min": [
+            -9999.0,
+            -0.1988999992609024,
+            -0.1868000030517578,
+            -0.07198750227689743,
+            0.0018500000005587935,
+            0.003197500016540289,
+            0.0
+          ],
+          "sample_max": [
+            0.49924251437187195,
+            1.0308175086975098,
+            1.2055250406265259,
+            1.3051300048828125,
+            1.5999850034713745,
+            1.5999850034713745,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "s2": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_S2_20250301_for_20250304.tif",
+          "size_bytes": 80839035,
+          "crs": "EPSG:32648",
+          "shape": [
+            3281,
+            1623
+          ],
+          "count": 8,
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11",
+            "B12",
+            "SCL",
+            "s2_valid"
+          ],
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "sample_min": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            8.0,
+            3.0,
+            2.0,
+            0.0
+          ],
+          "sample_max": [
+            4792.0,
+            5240.0,
+            6036.0,
+            6192.0,
+            6714.0,
+            9563.0,
+            9.0,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "masks": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_masks_native_20250304.tif",
+          "size_bytes": 89897,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 5,
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null,
+          "descriptions": [
+            "shore_zone",
+            "l8_valid",
+            "s2_valid",
+            "joint_valid",
+            "roi_zone"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "unique_values": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "shore_pixels": 59561,
+          "joint_valid_fraction_on_shore": 0.9921425093601518,
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "l8_date": "2026-04-24",
+      "s2_date": "2026-04-25",
+      "split": "final_blind_test",
+      "download_complete": true,
+      "files": {
+        "l8": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_L8_native_20260424.tif",
+          "size_bytes": 21707869,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 7,
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "valid"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "sample_min": [
+            -9999.0,
+            -0.09577500075101852,
+            -0.0962975025177002,
+            -0.03285500034689903,
+            0.003527499968186021,
+            0.004077500198036432,
+            0.0
+          ],
+          "sample_max": [
+            0.9264000058174133,
+            0.9147124886512756,
+            0.9498850107192993,
+            0.9931700229644775,
+            0.9151250123977661,
+            1.1060575246810913,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "s2": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_S2_20260425_for_20260424.tif",
+          "size_bytes": 85779387,
+          "crs": "EPSG:32648",
+          "shape": [
+            3281,
+            1623
+          ],
+          "count": 8,
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11",
+            "B12",
+            "SCL",
+            "s2_valid"
+          ],
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "sample_min": [
+            445.0,
+            438.0,
+            307.0,
+            240.0,
+            109.0,
+            32.0,
+            2.0,
+            0.0
+          ],
+          "sample_max": [
+            16240.0,
+            15977.0,
+            16289.0,
+            16465.0,
+            15440.0,
+            13349.0,
+            9.0,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "masks": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_masks_native_20260424.tif",
+          "size_bytes": 136071,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 5,
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null,
+          "descriptions": [
+            "shore_zone",
+            "l8_valid",
+            "s2_valid",
+            "joint_valid",
+            "roi_zone"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "unique_values": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "shore_pixels": 59561,
+          "joint_valid_fraction_on_shore": 0.905021742415339,
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "l8_date": "2026-08-14",
+      "s2_date": "2026-08-13",
+      "split": "final_blind_test",
+      "download_complete": true,
+      "files": {
+        "l8": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_L8_native_20260814.tif",
+          "size_bytes": 21700930,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 7,
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "valid"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "sample_min": [
+            -0.12701499462127686,
+            -0.04077500104904175,
+            -0.04820000007748604,
+            -0.005024999845772982,
+            -0.000295000005280599,
+            0.0005574999959208071,
+            0.0
+          ],
+          "sample_max": [
+            0.6051174998283386,
+            0.6147149801254272,
+            0.6231575012207031,
+            0.7923099994659424,
+            0.8982675075531006,
+            0.8175550103187561,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "s2": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_S2_20260813_for_20260814.tif",
+          "size_bytes": 92061457,
+          "crs": "EPSG:32648",
+          "shape": [
+            3281,
+            1623
+          ],
+          "count": 8,
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11",
+            "B12",
+            "SCL",
+            "s2_valid"
+          ],
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "sample_min": [
+            0.0,
+            47.0,
+            10.0,
+            0.0,
+            59.0,
+            50.0,
+            2.0,
+            0.0
+          ],
+          "sample_max": [
+            11025.0,
+            9873.0,
+            9717.0,
+            11299.0,
+            7308.0,
+            6425.0,
+            9.0,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "masks": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_masks_native_20260814.tif",
+          "size_bytes": 138781,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 5,
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null,
+          "descriptions": [
+            "shore_zone",
+            "l8_valid",
+            "s2_valid",
+            "joint_valid",
+            "roi_zone"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "unique_values": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "shore_pixels": 59561,
+          "joint_valid_fraction_on_shore": 0.7054952065949195,
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        }
+      }
+    },
+    {
+      "l8_date": "2026-05-26",
+      "s2_date": "2026-05-25",
+      "split": "final_blind_test",
+      "download_complete": true,
+      "files": {
+        "l8": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_L8_native_20260526.tif",
+          "size_bytes": 21329724,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 7,
+          "dtypes": [
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32",
+            "float32"
+          ],
+          "nodata": -9999.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "valid"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "sample_min": [
+            -0.09937749803066254,
+            0.009440000168979168,
+            -0.029142500832676888,
+            0.0001449999981559813,
+            0.004435000009834766,
+            0.0042975000105798244,
+            0.0
+          ],
+          "sample_max": [
+            0.345847487449646,
+            0.5773975253105164,
+            0.7137699723243713,
+            0.9421024918556213,
+            1.1109249591827393,
+            1.2173500061035156,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "s2": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_S2_20260525_for_20260526.tif",
+          "size_bytes": 83013184,
+          "crs": "EPSG:32648",
+          "shape": [
+            3281,
+            1623
+          ],
+          "count": 8,
+          "dtypes": [
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16",
+            "uint16"
+          ],
+          "nodata": 0.0,
+          "descriptions": [
+            "B2",
+            "B3",
+            "B4",
+            "B8",
+            "B11",
+            "B12",
+            "SCL",
+            "s2_valid"
+          ],
+          "transform": [
+            10.0,
+            0.0,
+            277960.0,
+            0.0,
+            -10.0,
+            2726990.0
+          ],
+          "sample_min": [
+            334.0,
+            556.0,
+            409.0,
+            861.0,
+            835.0,
+            737.0,
+            3.0,
+            0.0
+          ],
+          "sample_max": [
+            12158.0,
+            13877.0,
+            19141.0,
+            17363.0,
+            12988.0,
+            12712.0,
+            9.0,
+            1.0
+          ],
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        },
+        "masks": {
+          "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\data\\round4_final_blind\\raw\\Fuxian_final_masks_native_20260526.tif",
+          "size_bytes": 147823,
+          "crs": "EPSG:32648",
+          "shape": [
+            1095,
+            542
+          ],
+          "count": 5,
+          "dtypes": [
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8",
+            "uint8"
+          ],
+          "nodata": null,
+          "descriptions": [
+            "shore_zone",
+            "l8_valid",
+            "s2_valid",
+            "joint_valid",
+            "roi_zone"
+          ],
+          "transform": [
+            30.0,
+            0.0,
+            277935.0,
+            0.0,
+            -30.0,
+            2727015.0
+          ],
+          "unique_values": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "shore_pixels": 59561,
+          "joint_valid_fraction_on_shore": 0.7056463121841473,
+          "errors": [],
+          "warnings": [],
+          "status": "PASS"
+        }
+      }
+    }
+  ]
+}

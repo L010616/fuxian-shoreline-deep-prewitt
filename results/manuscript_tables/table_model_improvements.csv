@@ -1,0 +1,4 @@
+﻿Compared with,IoU difference,Boundary F1 30 m difference,Boundary distance reduction (m),Boundary distance reduction (%)
+U-Net,+0.0007,+0.0052,+2.20,20.0%
+DeepLabV3+,+0.0048,+0.0646,+9.72,52.5%
+SegFormer-B0,+0.0053,+0.0817,+11.61,56.9%

@@ -1,0 +1,5 @@
+﻿Version,Status,Target definition,Spatial prior BF1,Deep Prewitt BF1,Matched conv. BF1,Spatial prior ASD/m,Deep Prewitt ASD/m,Matched conv. ASD/m
+q2_cross_lake_zero_shot_v01,Initial audit,Seed-connected JRC target; automated proxy audit,0.8176,0.8387,0.8322,121.07,119.65,122.21
+q2_cross_lake_zero_shot_v02_hard_constraint,Constraint audit,Deterministic interior/exterior constraint,0.8176,0.8387,0.8322,121.07,119.65,122.21
+q2_cross_lake_zero_shot_v03_outer_shore,Outer-shore audit,Internal holes filled before shoreline evaluation,0.8245,0.8454,0.8394,115.94,114.07,116.69
+q2_cross_lake_zero_shot_v04_waihai_target,Final named-target protocol,Dianchi Waihai separated from Caohai by a fixed geographic rule,0.8446,0.8658,0.8597,26.85,25.29,25.84

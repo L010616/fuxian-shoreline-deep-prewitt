@@ -1,0 +1,50 @@
+[
+  {
+    "model": "proposed_parallel",
+    "parameters": 77185,
+    "input": "1x6x256x256",
+    "mean_inference_ms": 1.5930867195129395,
+    "std_inference_ms": 0.1627960686491642,
+    "peak_allocated_mb": 29.421875,
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "warmup": 20,
+    "repeats": 100,
+    "checkpoint_seed": 20260913
+  },
+  {
+    "model": "unet_resnet18",
+    "parameters": 14337617,
+    "input": "1x6x256x256",
+    "mean_inference_ms": 2.623713595867157,
+    "std_inference_ms": 0.43336350990051725,
+    "peak_allocated_mb": 136.908203125,
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "warmup": 20,
+    "repeats": 100,
+    "checkpoint_seed": 20260913
+  },
+  {
+    "model": "deeplabv3plus_resnet18",
+    "parameters": 12338705,
+    "input": "1x6x256x256",
+    "mean_inference_ms": 2.3135635221004485,
+    "std_inference_ms": 0.27775898841105995,
+    "peak_allocated_mb": 123.28466796875,
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "warmup": 20,
+    "repeats": 100,
+    "checkpoint_seed": 20260913
+  },
+  {
+    "model": "segformer_mit_b0",
+    "parameters": 3719105,
+    "input": "1x6x256x256",
+    "mean_inference_ms": 5.1667955160140995,
+    "std_inference_ms": 0.5415961538706353,
+    "peak_allocated_mb": 85.712890625,
+    "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+    "warmup": 20,
+    "repeats": 100,
+    "checkpoint_seed": 20260913
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "status": "FINAL_BLIND_EVALUATION_COMPLETED_AND_LOCKED",
+  "completed_at": "2026-09-16T02:18:41+08:00",
+  "rerun_allowed": false,
+  "training_after_test_allowed": false,
+  "model_selection_after_test_allowed": false,
+  "files": {
+    "evaluation_results": {
+      "path": "preexperiment/results/round4_final_blind/locked_evaluation/round4_final_blind_results.json",
+      "sha256": "1d5945cc01c36800afb6333a8bfdeb4ef358c1c4dba9849da5c5931bd3c28c9c"
+    },
+    "reference_manifest": {
+      "path": "preexperiment/results/round4_final_blind/screened_reference/screened_reference_manifest.json",
+      "sha256": "b55afc75849c72e67c2990e8528e7b50ba75d43fe791f24f56376414da9672bd"
+    },
+    "preblind_freeze": {
+      "path": "preexperiment/results/round4_validation_summary/round4_preblind_freeze_manifest.json",
+      "sha256": "eb459302d5807938d8b91aa960e3c3eff0da4d895eebf58c10ac4207c00f036b"
+    }
+  }
+}

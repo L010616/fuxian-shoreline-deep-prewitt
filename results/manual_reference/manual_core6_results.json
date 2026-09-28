@@ -1,0 +1,2015 @@
+{
+  "status": "MANUAL_CORE6_EVALUATION_COMPLETE",
+  "created_at": "2026-09-28T03:50:41+08:00",
+  "selection_changed_after_model_review": false,
+  "training_or_tuning_on_core6": false,
+  "threshold": 0.5,
+  "reviewed_files": [
+    {
+      "scene_id": "HR01",
+      "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\results\\q2_external\\manual_review_core6\\HR01\\shoreline_REVIEWED_R2.geojson",
+      "sha256": "d1a266e2159c08b0cb06ef3ca652cc82e7b5cde8edbad179c43617e9fd6c73da",
+      "consensus_status": "SINGLE_HUMAN_REVIEWER_FROM_SCRATCH_R2"
+    },
+    {
+      "scene_id": "HR02",
+      "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\results\\q2_external\\manual_review_core6\\HR02\\shoreline_REVIEWED_R2.geojson",
+      "sha256": "1b630144780331ad72286dda5e66ce2396de281043bb16496a114fb46090295b",
+      "consensus_status": "SINGLE_HUMAN_REVIEWER_FROM_SCRATCH_R2"
+    },
+    {
+      "scene_id": "HR03",
+      "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\results\\q2_external\\manual_review_core6\\HR03\\shoreline_REVIEWED_R2.geojson",
+      "sha256": "0d5879f30f826ea8b334fd96a037aa4f29f2fce4b68ba63d17263b69deb5e0e9",
+      "consensus_status": "SINGLE_HUMAN_REVIEWER_FROM_SCRATCH_R2"
+    },
+    {
+      "scene_id": "HR04",
+      "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\results\\q2_external\\manual_review_core6\\HR04\\shoreline_REVIEWED_R2.geojson",
+      "sha256": "b5f70643afbdd812271b326ee22467f217628f093d2bd7b195ea13ca4b382d10",
+      "consensus_status": "SINGLE_HUMAN_REVIEWER_FROM_SCRATCH_R2"
+    },
+    {
+      "scene_id": "HR05",
+      "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\results\\q2_external\\manual_review_core6\\HR05\\shoreline_REVIEWED_R2.geojson",
+      "sha256": "2479b16f0fefd54e4fc57cdb7b6b2b1cb908b0927d67640f5f8001e9727f4b38",
+      "consensus_status": "SINGLE_HUMAN_REVIEWER_FROM_SCRATCH_R2"
+    },
+    {
+      "scene_id": "HR06",
+      "path": "D:\\Document\\ChatGPT\\水色\\preexperiment\\results\\q2_external\\manual_review_core6\\HR06\\shoreline_REVIEWED_R2.geojson",
+      "sha256": "60ad7e8ea3ce40ce0ad0dec3d18ec38c81fc7a939f55ecc4e917c1342b4c930f",
+      "consensus_status": "SINGLE_HUMAN_REVIEWER_FROM_SCRATCH_R2"
+    }
+  ],
+  "models": [
+    "spatial_prior",
+    "deep_prewitt",
+    "parameter_matched_ordinary_conv"
+  ],
+  "seeds": [
+    20260913,
+    20260929,
+    20261017
+  ],
+  "three_seed_ensemble_per_date": {
+    "spatial_prior": {
+      "Dianchi_Waihai_20220312": {
+        "tp": 319283,
+        "fp": 3421,
+        "fn": 1497,
+        "tn": 32505,
+        "precision": 0.9893989538400516,
+        "recall": 0.9953332502026311,
+        "f1": 0.9923572303274052,
+        "iou": 0.984830398425668,
+        "boundary_f1_30m": 0.8032261811967182,
+        "boundary_precision_30m": 0.783008356545961,
+        "boundary_recall_30m": 0.8245157559988436,
+        "boundary_f1_60m": 0.8850837355735154,
+        "boundary_precision_60m": 0.8596100278551532,
+        "boundary_recall_60m": 0.9121133275513154,
+        "mean_symmetric_boundary_distance_m": 36.2575581540446,
+        "prediction_query_count": 3590,
+        "reference_query_count": 3459,
+        "prediction_to_reference_mean_m": 44.730237371202556,
+        "reference_to_prediction_mean_m": 27.784878936886646,
+        "hd95_m": 174.92855684535903,
+        "prediction_to_reference_p95_m": 174.92855684535903,
+        "reference_to_prediction_p95_m": 90.0,
+        "valid_pixels": 356706,
+        "valid_shore_pixels": 68863,
+        "lake": "Dianchi_Waihai",
+        "l8_date": "20220312",
+        "s2_date": "20220312",
+        "season": "dry"
+      },
+      "Dianchi_Waihai_20240824": {
+        "tp": 317825,
+        "fp": 2786,
+        "fn": 855,
+        "tn": 27615,
+        "precision": 0.9913103418160949,
+        "recall": 0.9973170578636877,
+        "f1": 0.9943046280958124,
+        "iou": 0.9886737633217821,
+        "boundary_f1_30m": 0.8430826208707565,
+        "boundary_precision_30m": 0.8339510748702743,
+        "boundary_recall_30m": 0.8524163568773234,
+        "boundary_f1_60m": 0.9167562265862733,
+        "boundary_precision_60m": 0.9002965159377316,
+        "boundary_recall_60m": 0.9338289962825279,
+        "mean_symmetric_boundary_distance_m": 30.89556944168239,
+        "prediction_query_count": 2698,
+        "reference_query_count": 2690,
+        "prediction_to_reference_mean_m": 36.2542786211262,
+        "reference_to_prediction_mean_m": 25.536860262238587,
+        "hd95_m": 134.1640786499874,
+        "prediction_to_reference_p95_m": 134.1640786499874,
+        "reference_to_prediction_p95_m": 67.0820393249937,
+        "valid_pixels": 349081,
+        "valid_shore_pixels": 61394,
+        "lake": "Dianchi_Waihai",
+        "l8_date": "20240824",
+        "s2_date": "20240828",
+        "season": "wet"
+      },
+      "Erhai_20221121": {
+        "tp": 269721,
+        "fp": 1613,
+        "fn": 1587,
+        "tn": 34937,
+        "precision": 0.994055297161432,
+        "recall": 0.9941505595116988,
+        "f1": 0.9941029260543783,
+        "iou": 0.9882749953283184,
+        "boundary_f1_30m": 0.8652631394785679,
+        "boundary_precision_30m": 0.8736147757255937,
+        "boundary_recall_30m": 0.8570696721311475,
+        "boundary_f1_60m": 0.9633945528657374,
+        "boundary_precision_60m": 0.9680738786279683,
+        "boundary_recall_60m": 0.9587602459016393,
+        "mean_symmetric_boundary_distance_m": 23.952155361538978,
+        "prediction_query_count": 3790,
+        "reference_query_count": 3904,
+        "prediction_to_reference_mean_m": 22.858533978567298,
+        "reference_to_prediction_mean_m": 25.045776744510658,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 307858,
+        "valid_shore_pixels": 72920,
+        "lake": "Erhai",
+        "l8_date": "20221121",
+        "s2_date": "20221118",
+        "season": "dry"
+      },
+      "Erhai_20230601": {
+        "tp": 269533,
+        "fp": 875,
+        "fn": 2181,
+        "tn": 35265,
+        "precision": 0.9967641489896749,
+        "recall": 0.9919731776794718,
+        "f1": 0.9943628924854553,
+        "iou": 0.9887889826808859,
+        "boundary_f1_30m": 0.8822793984028978,
+        "boundary_precision_30m": 0.8891213389121339,
+        "boundary_recall_30m": 0.8755419535832696,
+        "boundary_f1_60m": 0.9674852310559663,
+        "boundary_precision_60m": 0.9696652719665272,
+        "boundary_recall_60m": 0.9653149706707472,
+        "mean_symmetric_boundary_distance_m": 21.599789577042223,
+        "prediction_query_count": 3824,
+        "reference_query_count": 3921,
+        "prediction_to_reference_mean_m": 21.374909237609007,
+        "reference_to_prediction_mean_m": 21.824669916475443,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 307854,
+        "valid_shore_pixels": 72915,
+        "lake": "Erhai",
+        "l8_date": "20230601",
+        "s2_date": "20230529",
+        "season": "wet"
+      },
+      "Xingyun_20200118": {
+        "tp": 38135,
+        "fp": 550,
+        "fn": 370,
+        "tn": 9864,
+        "precision": 0.9857826030761278,
+        "recall": 0.990390858330087,
+        "f1": 0.9880813576888199,
+        "iou": 0.9764434771476124,
+        "boundary_f1_30m": 0.8553368224033506,
+        "boundary_precision_30m": 0.8548689138576779,
+        "boundary_recall_30m": 0.8558052434456929,
+        "boundary_f1_60m": 0.9690278456272479,
+        "boundary_precision_60m": 0.9606741573033708,
+        "boundary_recall_60m": 0.9775280898876404,
+        "mean_symmetric_boundary_distance_m": 24.03001565729503,
+        "prediction_query_count": 1068,
+        "reference_query_count": 1068,
+        "prediction_to_reference_mean_m": 24.4574418679169,
+        "reference_to_prediction_mean_m": 23.602589446673168,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 48919,
+        "valid_shore_pixels": 20644,
+        "lake": "Xingyun",
+        "l8_date": "20200118",
+        "s2_date": "20200117",
+        "season": "dry"
+      },
+      "Xingyun_20241027": {
+        "tp": 37904,
+        "fp": 677,
+        "fn": 482,
+        "tn": 9858,
+        "precision": 0.9824525025271507,
+        "recall": 0.9874433387172407,
+        "f1": 0.9849415983473437,
+        "iou": 0.9703299797762589,
+        "boundary_f1_30m": 0.7762193001461637,
+        "boundary_precision_30m": 0.7737430167597765,
+        "boundary_recall_30m": 0.7787114845938375,
+        "boundary_f1_60m": 0.9215808062867313,
+        "boundary_precision_60m": 0.9115456238361266,
+        "boundary_recall_60m": 0.9318394024276377,
+        "mean_symmetric_boundary_distance_m": 29.93169857198362,
+        "prediction_query_count": 1074,
+        "reference_query_count": 1071,
+        "prediction_to_reference_mean_m": 30.72712436801404,
+        "reference_to_prediction_mean_m": 29.136272775953202,
+        "hd95_m": 86.65432893255024,
+        "prediction_to_reference_p95_m": 86.65432893255024,
+        "reference_to_prediction_p95_m": 67.0820393249937,
+        "valid_pixels": 48921,
+        "valid_shore_pixels": 20646,
+        "lake": "Xingyun",
+        "l8_date": "20241027",
+        "s2_date": "20241027",
+        "season": "wet"
+      }
+    },
+    "deep_prewitt": {
+      "Dianchi_Waihai_20220312": {
+        "tp": 319318,
+        "fp": 3283,
+        "fn": 1462,
+        "tn": 32643,
+        "precision": 0.9898233421471105,
+        "recall": 0.9954423592493298,
+        "f1": 0.9926248987769299,
+        "iou": 0.9853577853688943,
+        "boundary_f1_30m": 0.8208276836664565,
+        "boundary_precision_30m": 0.7989963758015054,
+        "boundary_recall_30m": 0.8438855160450998,
+        "boundary_f1_60m": 0.8870317167178811,
+        "boundary_precision_60m": 0.8620016727069975,
+        "boundary_recall_60m": 0.9135588320323793,
+        "mean_symmetric_boundary_distance_m": 36.037782087305274,
+        "prediction_query_count": 3587,
+        "reference_query_count": 3459,
+        "prediction_to_reference_mean_m": 45.348896886161015,
+        "reference_to_prediction_mean_m": 26.726667288449526,
+        "hd95_m": 189.73665961010278,
+        "prediction_to_reference_p95_m": 189.73665961010278,
+        "reference_to_prediction_p95_m": 90.0,
+        "valid_pixels": 356706,
+        "valid_shore_pixels": 68863,
+        "lake": "Dianchi_Waihai",
+        "l8_date": "20220312",
+        "s2_date": "20220312",
+        "season": "dry"
+      },
+      "Dianchi_Waihai_20240824": {
+        "tp": 317901,
+        "fp": 2603,
+        "fn": 779,
+        "tn": 27798,
+        "precision": 0.9918784164940219,
+        "recall": 0.9975555416091377,
+        "f1": 0.9947088788204962,
+        "iou": 0.9894734548668931,
+        "boundary_f1_30m": 0.8753192181263074,
+        "boundary_precision_30m": 0.8678678678678678,
+        "boundary_recall_30m": 0.8828996282527881,
+        "boundary_f1_60m": 0.9263676845976306,
+        "boundary_precision_60m": 0.914039039039039,
+        "boundary_recall_60m": 0.9390334572490706,
+        "mean_symmetric_boundary_distance_m": 28.828657810900758,
+        "prediction_query_count": 2664,
+        "reference_query_count": 2690,
+        "prediction_to_reference_mean_m": 33.31650392814215,
+        "reference_to_prediction_mean_m": 24.340811693659365,
+        "hd95_m": 127.27922061357854,
+        "prediction_to_reference_p95_m": 127.27922061357854,
+        "reference_to_prediction_p95_m": 67.0820393249937,
+        "valid_pixels": 349081,
+        "valid_shore_pixels": 61394,
+        "lake": "Dianchi_Waihai",
+        "l8_date": "20240824",
+        "s2_date": "20240828",
+        "season": "wet"
+      },
+      "Erhai_20221121": {
+        "tp": 269691,
+        "fp": 1465,
+        "fn": 1617,
+        "tn": 35085,
+        "precision": 0.9945972060363776,
+        "recall": 0.9940399840771375,
+        "f1": 0.9943185169891459,
+        "iou": 0.9887012277608122,
+        "boundary_f1_30m": 0.8794177258528026,
+        "boundary_precision_30m": 0.8846657929226737,
+        "boundary_recall_30m": 0.8742315573770492,
+        "boundary_f1_60m": 0.970857392693495,
+        "boundary_precision_60m": 0.9714285714285714,
+        "boundary_recall_60m": 0.9702868852459017,
+        "mean_symmetric_boundary_distance_m": 22.18172396213281,
+        "prediction_query_count": 3815,
+        "reference_query_count": 3904,
+        "prediction_to_reference_mean_m": 22.113470172068517,
+        "reference_to_prediction_mean_m": 22.249977752197104,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 307858,
+        "valid_shore_pixels": 72920,
+        "lake": "Erhai",
+        "l8_date": "20221121",
+        "s2_date": "20221118",
+        "season": "dry"
+      },
+      "Erhai_20230601": {
+        "tp": 269530,
+        "fp": 847,
+        "fn": 2184,
+        "tn": 35293,
+        "precision": 0.9968673370885838,
+        "recall": 0.9919621366583982,
+        "f1": 0.9944086878402335,
+        "iou": 0.9888795535678252,
+        "boundary_f1_30m": 0.8819624167320423,
+        "boundary_precision_30m": 0.8892670157068063,
+        "boundary_recall_30m": 0.8747768426421831,
+        "boundary_f1_60m": 0.9665564102905355,
+        "boundary_precision_60m": 0.9678010471204188,
+        "boundary_recall_60m": 0.9653149706707472,
+        "mean_symmetric_boundary_distance_m": 21.458746004978515,
+        "prediction_query_count": 3820,
+        "reference_query_count": 3921,
+        "prediction_to_reference_mean_m": 21.27588854026421,
+        "reference_to_prediction_mean_m": 21.641603469692825,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 307854,
+        "valid_shore_pixels": 72915,
+        "lake": "Erhai",
+        "l8_date": "20230601",
+        "s2_date": "20230529",
+        "season": "wet"
+      },
+      "Xingyun_20200118": {
+        "tp": 38140,
+        "fp": 499,
+        "fn": 365,
+        "tn": 9915,
+        "precision": 0.9870855871011155,
+        "recall": 0.9905207115958966,
+        "f1": 0.9888001659234678,
+        "iou": 0.9778484258024818,
+        "boundary_f1_30m": 0.8815994778086231,
+        "boundary_precision_30m": 0.8783910196445276,
+        "boundary_recall_30m": 0.8848314606741573,
+        "boundary_f1_60m": 0.9718823348638096,
+        "boundary_precision_60m": 0.9653882132834425,
+        "boundary_recall_60m": 0.9784644194756554,
+        "mean_symmetric_boundary_distance_m": 22.67622176794356,
+        "prediction_query_count": 1069,
+        "reference_query_count": 1068,
+        "prediction_to_reference_mean_m": 22.924388892103195,
+        "reference_to_prediction_mean_m": 22.428054643783927,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 48919,
+        "valid_shore_pixels": 20644,
+        "lake": "Xingyun",
+        "l8_date": "20200118",
+        "s2_date": "20200117",
+        "season": "dry"
+      },
+      "Xingyun_20241027": {
+        "tp": 37899,
+        "fp": 561,
+        "fn": 487,
+        "tn": 9974,
+        "precision": 0.9854134165366615,
+        "recall": 0.9873130828948053,
+        "f1": 0.9863623350597298,
+        "iou": 0.9730916373533263,
+        "boundary_f1_30m": 0.8171505758974796,
+        "boundary_precision_30m": 0.8220338983050848,
+        "boundary_recall_30m": 0.8123249299719888,
+        "boundary_f1_60m": 0.9404055234652545,
+        "boundary_precision_60m": 0.9350282485875706,
+        "boundary_recall_60m": 0.945845004668534,
+        "mean_symmetric_boundary_distance_m": 27.308849269584066,
+        "prediction_query_count": 1062,
+        "reference_query_count": 1071,
+        "prediction_to_reference_mean_m": 27.728669370651886,
+        "reference_to_prediction_mean_m": 26.889029168516245,
+        "hd95_m": 67.0820393249937,
+        "prediction_to_reference_p95_m": 67.0820393249937,
+        "reference_to_prediction_p95_m": 67.0820393249937,
+        "valid_pixels": 48921,
+        "valid_shore_pixels": 20646,
+        "lake": "Xingyun",
+        "l8_date": "20241027",
+        "s2_date": "20241027",
+        "season": "wet"
+      }
+    },
+    "parameter_matched_ordinary_conv": {
+      "Dianchi_Waihai_20220312": {
+        "tp": 319196,
+        "fp": 3248,
+        "fn": 1584,
+        "tn": 32678,
+        "precision": 0.9899269330488395,
+        "recall": 0.9950620362865515,
+        "f1": 0.9924878424934394,
+        "iou": 0.9850877084696384,
+        "boundary_f1_30m": 0.7994151612335136,
+        "boundary_precision_30m": 0.7825721490613617,
+        "boundary_recall_30m": 0.8169991326973114,
+        "boundary_f1_60m": 0.8880309629917461,
+        "boundary_precision_60m": 0.8646679742224713,
+        "boundary_recall_60m": 0.912691529343741,
+        "mean_symmetric_boundary_distance_m": 36.71255695617737,
+        "prediction_query_count": 3569,
+        "reference_query_count": 3459,
+        "prediction_to_reference_mean_m": 45.72804244713721,
+        "reference_to_prediction_mean_m": 27.69707146521753,
+        "hd95_m": 180.0,
+        "prediction_to_reference_p95_m": 180.0,
+        "reference_to_prediction_p95_m": 90.4868329805047,
+        "valid_pixels": 356706,
+        "valid_shore_pixels": 68863,
+        "lake": "Dianchi_Waihai",
+        "l8_date": "20220312",
+        "s2_date": "20220312",
+        "season": "dry"
+      },
+      "Dianchi_Waihai_20240824": {
+        "tp": 317870,
+        "fp": 2891,
+        "fn": 810,
+        "tn": 27510,
+        "precision": 0.9909870589005522,
+        "recall": 0.9974582653445463,
+        "f1": 0.9942121321591829,
+        "iou": 0.9884908775977933,
+        "boundary_f1_30m": 0.8273518872088621,
+        "boundary_precision_30m": 0.8213353226408057,
+        "boundary_recall_30m": 0.833457249070632,
+        "boundary_f1_60m": 0.915559293587139,
+        "boundary_precision_60m": 0.9004102946661693,
+        "boundary_recall_60m": 0.9312267657992565,
+        "mean_symmetric_boundary_distance_m": 31.663901677561768,
+        "prediction_query_count": 2681,
+        "reference_query_count": 2690,
+        "prediction_to_reference_mean_m": 36.72548259036268,
+        "reference_to_prediction_mean_m": 26.60232076476085,
+        "hd95_m": 127.27922061357854,
+        "prediction_to_reference_p95_m": 127.27922061357854,
+        "reference_to_prediction_p95_m": 67.0820393249937,
+        "valid_pixels": 349081,
+        "valid_shore_pixels": 61394,
+        "lake": "Dianchi_Waihai",
+        "l8_date": "20240824",
+        "s2_date": "20240828",
+        "season": "wet"
+      },
+      "Erhai_20221121": {
+        "tp": 269641,
+        "fp": 1364,
+        "fn": 1667,
+        "tn": 35186,
+        "precision": 0.9949668825298427,
+        "recall": 0.9938556916862017,
+        "f1": 0.9944109766868948,
+        "iou": 0.9888840805069827,
+        "boundary_f1_30m": 0.8773723157078168,
+        "boundary_precision_30m": 0.8852631578947369,
+        "boundary_recall_30m": 0.8696209016393442,
+        "boundary_f1_60m": 0.9665433899940742,
+        "boundary_precision_60m": 0.9697368421052631,
+        "boundary_recall_60m": 0.9633709016393442,
+        "mean_symmetric_boundary_distance_m": 22.3916515230297,
+        "prediction_query_count": 3800,
+        "reference_query_count": 3904,
+        "prediction_to_reference_mean_m": 21.683615990453422,
+        "reference_to_prediction_mean_m": 23.099687055605976,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 307858,
+        "valid_shore_pixels": 72920,
+        "lake": "Erhai",
+        "l8_date": "20221121",
+        "s2_date": "20221118",
+        "season": "dry"
+      },
+      "Erhai_20230601": {
+        "tp": 269299,
+        "fp": 746,
+        "fn": 2415,
+        "tn": 35394,
+        "precision": 0.997237497454128,
+        "recall": 0.9911119780357287,
+        "f1": 0.9941653022838568,
+        "iou": 0.9883982969977244,
+        "boundary_f1_30m": 0.8689251423634717,
+        "boundary_precision_30m": 0.8772572624967286,
+        "boundary_recall_30m": 0.8607498087222647,
+        "boundary_f1_60m": 0.9619237189314982,
+        "boundary_precision_60m": 0.9646689348338131,
+        "boundary_recall_60m": 0.9591940831420556,
+        "mean_symmetric_boundary_distance_m": 22.25643027093628,
+        "prediction_query_count": 3821,
+        "reference_query_count": 3921,
+        "prediction_to_reference_mean_m": 22.040465831149227,
+        "reference_to_prediction_mean_m": 22.472394710723336,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 307854,
+        "valid_shore_pixels": 72915,
+        "lake": "Erhai",
+        "l8_date": "20230601",
+        "s2_date": "20230529",
+        "season": "wet"
+      },
+      "Xingyun_20200118": {
+        "tp": 38123,
+        "fp": 502,
+        "fn": 382,
+        "tn": 9912,
+        "precision": 0.9870032362459547,
+        "recall": 0.9900792104921439,
+        "f1": 0.9885388305458317,
+        "iou": 0.9773374009793114,
+        "boundary_f1_30m": 0.8679613670608998,
+        "boundary_precision_30m": 0.8642322097378277,
+        "boundary_recall_30m": 0.8717228464419475,
+        "boundary_f1_60m": 0.968074239888227,
+        "boundary_precision_60m": 0.9588014981273408,
+        "boundary_recall_60m": 0.9775280898876404,
+        "mean_symmetric_boundary_distance_m": 23.313359600190275,
+        "prediction_query_count": 1068,
+        "reference_query_count": 1068,
+        "prediction_to_reference_mean_m": 23.659767975290652,
+        "reference_to_prediction_mean_m": 22.9669512250899,
+        "hd95_m": 60.0,
+        "prediction_to_reference_p95_m": 60.0,
+        "reference_to_prediction_p95_m": 60.0,
+        "valid_pixels": 48919,
+        "valid_shore_pixels": 20644,
+        "lake": "Xingyun",
+        "l8_date": "20200118",
+        "s2_date": "20200117",
+        "season": "dry"
+      },
+      "Xingyun_20241027": {
+        "tp": 37872,
+        "fp": 595,
+        "fn": 514,
+        "tn": 9940,
+        "precision": 0.9845321964281072,
+        "recall": 0.986609701453655,
+        "f1": 0.985569854137119,
+        "iou": 0.9715502424257971,
+        "boundary_f1_30m": 0.8010235547838142,
+        "boundary_precision_30m": 0.8046948356807512,
+        "boundary_recall_30m": 0.7973856209150327,
+        "boundary_f1_60m": 0.9302101579065635,
+        "boundary_precision_60m": 0.9258215962441314,
+        "boundary_recall_60m": 0.934640522875817,
+        "mean_symmetric_boundary_distance_m": 28.466369040872387,
+        "prediction_query_count": 1065,
+        "reference_query_count": 1071,
+        "prediction_to_reference_mean_m": 28.92496443113402,
+        "reference_to_prediction_mean_m": 28.00777365061075,
+        "hd95_m": 84.8528137423857,
+        "prediction_to_reference_p95_m": 84.8528137423857,
+        "reference_to_prediction_p95_m": 67.0820393249937,
+        "valid_pixels": 48921,
+        "valid_shore_pixels": 20646,
+        "lake": "Xingyun",
+        "l8_date": "20241027",
+        "s2_date": "20241027",
+        "season": "wet"
+      }
+    }
+  },
+  "summary": {
+    "spatial_prior": {
+      "all_18_dates": {
+        "n_dates": 6,
+        "precision": {
+          "mean": 0.9899606412350886,
+          "date_sd": 0.005272935786169535,
+          "values": [
+            0.9893989538400516,
+            0.9913103418160949,
+            0.994055297161432,
+            0.9967641489896749,
+            0.9857826030761278,
+            0.9824525025271507
+          ]
+        },
+        "recall": {
+          "mean": 0.9927680403841362,
+          "date_sd": 0.0035726872143820453,
+          "values": [
+            0.9953332502026311,
+            0.9973170578636877,
+            0.9941505595116988,
+            0.9919731776794718,
+            0.990390858330087,
+            0.9874433387172407
+          ]
+        },
+        "f1": {
+          "mean": 0.9913584388332026,
+          "date_sd": 0.003953521724325452,
+          "values": [
+            0.9923572303274052,
+            0.9943046280958124,
+            0.9941029260543783,
+            0.9943628924854553,
+            0.9880813576888199,
+            0.9849415983473437
+          ]
+        },
+        "iou": {
+          "mean": 0.982890266113421,
+          "date_sd": 0.007750161289294221,
+          "values": [
+            0.984830398425668,
+            0.9886737633217821,
+            0.9882749953283184,
+            0.9887889826808859,
+            0.9764434771476124,
+            0.9703299797762589
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8375679104164092,
+          "date_sd": 0.04013800065587564,
+          "values": [
+            0.8032261811967182,
+            0.8430826208707565,
+            0.8652631394785679,
+            0.8822793984028978,
+            0.8553368224033506,
+            0.7762193001461637
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9372213996659119,
+          "date_sd": 0.034624762615684646,
+          "values": [
+            0.8850837355735154,
+            0.9167562265862733,
+            0.9633945528657374,
+            0.9674852310559663,
+            0.9690278456272479,
+            0.9215808062867313
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 27.777797793931143,
+          "date_sd": 5.533810999055232,
+          "values": [
+            36.2575581540446,
+            30.89556944168239,
+            23.952155361538978,
+            21.599789577042223,
+            24.03001565729503,
+            29.93169857198362
+          ]
+        },
+        "hd95_m": {
+          "mean": 95.95782740464945,
+          "date_sd": 48.29398488720447,
+          "values": [
+            174.92855684535903,
+            134.1640786499874,
+            60.0,
+            60.0,
+            60.0,
+            86.65432893255024
+          ]
+        }
+      },
+      "lake:Dianchi_Waihai": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9903546478280733,
+          "date_sd": 0.0013515553993386394,
+          "values": [
+            0.9893989538400516,
+            0.9913103418160949
+          ]
+        },
+        "recall": {
+          "mean": 0.9963251540331595,
+          "date_sd": 0.0014027638497029868,
+          "values": [
+            0.9953332502026311,
+            0.9973170578636877
+          ]
+        },
+        "f1": {
+          "mean": 0.9933309292116088,
+          "date_sd": 0.0013770181677083121,
+          "values": [
+            0.9923572303274052,
+            0.9943046280958124
+          ]
+        },
+        "iou": {
+          "mean": 0.9867520808737251,
+          "date_sd": 0.0027176693806166413,
+          "values": [
+            0.984830398425668,
+            0.9886737633217821
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8231544010337373,
+          "date_sd": 0.028182758767465024,
+          "values": [
+            0.8032261811967182,
+            0.8430826208707565
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9009199810798943,
+          "date_sd": 0.022395833172191116,
+          "values": [
+            0.8850837355735154,
+            0.9167562265862733
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 33.5765637978635,
+          "date_sd": 3.7914985791570444,
+          "values": [
+            36.2575581540446,
+            30.89556944168239
+          ]
+        },
+        "hd95_m": {
+          "mean": 154.5463177476732,
+          "date_sd": 28.82483896347843,
+          "values": [
+            174.92855684535903,
+            134.1640786499874
+          ]
+        }
+      },
+      "lake:Erhai": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9954097230755534,
+          "date_sd": 0.001915447496980114,
+          "values": [
+            0.994055297161432,
+            0.9967641489896749
+          ]
+        },
+        "recall": {
+          "mean": 0.9930618685955853,
+          "date_sd": 0.0015396414588001318,
+          "values": [
+            0.9941505595116988,
+            0.9919731776794718
+          ]
+        },
+        "f1": {
+          "mean": 0.9942329092699168,
+          "date_sd": 0.00018382402629537817,
+          "values": [
+            0.9941029260543783,
+            0.9943628924854553
+          ]
+        },
+        "iou": {
+          "mean": 0.9885319890046022,
+          "date_sd": 0.00036344394244457797,
+          "values": [
+            0.9882749953283184,
+            0.9887889826808859
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8737712689407329,
+          "date_sd": 0.012032312075819777,
+          "values": [
+            0.8652631394785679,
+            0.8822793984028978
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9654398919608518,
+          "date_sd": 0.0028925462879627706,
+          "values": [
+            0.9633945528657374,
+            0.9674852310559663
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 22.7759724692906,
+          "date_sd": 1.6633737980488676,
+          "values": [
+            23.952155361538978,
+            21.599789577042223
+          ]
+        },
+        "hd95_m": {
+          "mean": 60.0,
+          "date_sd": 0.0,
+          "values": [
+            60.0,
+            60.0
+          ]
+        }
+      },
+      "lake:Xingyun": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9841175528016393,
+          "date_sd": 0.002354736680214744,
+          "values": [
+            0.9857826030761278,
+            0.9824525025271507
+          ]
+        },
+        "recall": {
+          "mean": 0.9889170985236638,
+          "date_sd": 0.0020842111059239934,
+          "values": [
+            0.990390858330087,
+            0.9874433387172407
+          ]
+        },
+        "f1": {
+          "mean": 0.9865114780180818,
+          "date_sd": 0.002220145121651591,
+          "values": [
+            0.9880813576888199,
+            0.9849415983473437
+          ]
+        },
+        "iou": {
+          "mean": 0.9733867284619356,
+          "date_sd": 0.004322895448050173,
+          "values": [
+            0.9764434771476124,
+            0.9703299797762589
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8157780612747572,
+          "date_sd": 0.05594453649873449,
+          "values": [
+            0.8553368224033506,
+            0.7762193001461637
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9453043259569895,
+          "date_sd": 0.033550123264904134,
+          "values": [
+            0.9690278456272479,
+            0.9215808062867313
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 26.980857114639328,
+          "date_sd": 4.17312000938909,
+          "values": [
+            24.03001565729503,
+            29.93169857198362
+          ]
+        },
+        "hd95_m": {
+          "mean": 73.32716446627512,
+          "date_sd": 18.84745673618307,
+          "values": [
+            60.0,
+            86.65432893255024
+          ]
+        }
+      },
+      "season:dry": {
+        "n_dates": 3,
+        "precision": {
+          "mean": 0.9897456180258705,
+          "date_sd": 0.004147227857322796,
+          "values": [
+            0.9893989538400516,
+            0.994055297161432,
+            0.9857826030761278
+          ]
+        },
+        "recall": {
+          "mean": 0.9932915560148056,
+          "date_sd": 0.0025807410972826217,
+          "values": [
+            0.9953332502026311,
+            0.9941505595116988,
+            0.990390858330087
+          ]
+        },
+        "f1": {
+          "mean": 0.9915138380235344,
+          "date_sd": 0.0030981130271416565,
+          "values": [
+            0.9923572303274052,
+            0.9941029260543783,
+            0.9880813576888199
+          ]
+        },
+        "iou": {
+          "mean": 0.9831829569671996,
+          "date_sd": 0.006085372062117879,
+          "values": [
+            0.984830398425668,
+            0.9882749953283184,
+            0.9764434771476124
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8412753810262122,
+          "date_sd": 0.03332325236854914,
+          "values": [
+            0.8032261811967182,
+            0.8652631394785679,
+            0.8553368224033506
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9391687113555003,
+          "date_sd": 0.04692357563994495,
+          "values": [
+            0.8850837355735154,
+            0.9633945528657374,
+            0.9690278456272479
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 28.07990972429287,
+          "date_sd": 7.082158282393831,
+          "values": [
+            36.2575581540446,
+            23.952155361538978,
+            24.03001565729503
+          ]
+        },
+        "hd95_m": {
+          "mean": 98.309518948453,
+          "date_sd": 66.35403323224324,
+          "values": [
+            174.92855684535903,
+            60.0,
+            60.0
+          ]
+        }
+      },
+      "season:wet": {
+        "n_dates": 3,
+        "precision": {
+          "mean": 0.9901756644443068,
+          "date_sd": 0.007222979002503514,
+          "values": [
+            0.9913103418160949,
+            0.9967641489896749,
+            0.9824525025271507
+          ]
+        },
+        "recall": {
+          "mean": 0.9922445247534668,
+          "date_sd": 0.004942449228029876,
+          "values": [
+            0.9973170578636877,
+            0.9919731776794718,
+            0.9874433387172407
+          ]
+        },
+        "f1": {
+          "mean": 0.9912030396428705,
+          "date_sd": 0.0054226454805538305,
+          "values": [
+            0.9943046280958124,
+            0.9943628924854553,
+            0.9849415983473437
+          ]
+        },
+        "iou": {
+          "mean": 0.9825975752596423,
+          "date_sd": 0.01062420552715001,
+          "values": [
+            0.9886737633217821,
+            0.9887889826808859,
+            0.9703299797762589
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.833860439806606,
+          "date_sd": 0.05362809504580604,
+          "values": [
+            0.8430826208707565,
+            0.8822793984028978,
+            0.7762193001461637
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9352740879763236,
+          "date_sd": 0.027999775824003047,
+          "values": [
+            0.9167562265862733,
+            0.9674852310559663,
+            0.9215808062867313
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 27.47568586356941,
+          "date_sd": 5.111445944239406,
+          "values": [
+            30.89556944168239,
+            21.599789577042223,
+            29.93169857198362
+          ]
+        },
+        "hd95_m": {
+          "mean": 93.60613586084588,
+          "date_sd": 37.567583834691895,
+          "values": [
+            134.1640786499874,
+            60.0,
+            86.65432893255024
+          ]
+        }
+      }
+    },
+    "deep_prewitt": {
+      "all_18_dates": {
+        "n_dates": 6,
+        "precision": {
+          "mean": 0.9909442175673117,
+          "date_sd": 0.004382591655082166,
+          "values": [
+            0.9898233421471105,
+            0.9918784164940219,
+            0.9945972060363776,
+            0.9968673370885838,
+            0.9870855871011155,
+            0.9854134165366615
+          ]
+        },
+        "recall": {
+          "mean": 0.9928056360141175,
+          "date_sd": 0.0036643700208887353,
+          "values": [
+            0.9954423592493298,
+            0.9975555416091377,
+            0.9940399840771375,
+            0.9919621366583982,
+            0.9905207115958966,
+            0.9873130828948053
+          ]
+        },
+        "f1": {
+          "mean": 0.9918705805683339,
+          "date_sd": 0.0034879085093081214,
+          "values": [
+            0.9926248987769299,
+            0.9947088788204962,
+            0.9943185169891459,
+            0.9944086878402335,
+            0.9888001659234678,
+            0.9863623350597298
+          ]
+        },
+        "iou": {
+          "mean": 0.9838920141200388,
+          "date_sd": 0.006848038402425886,
+          "values": [
+            0.9853577853688943,
+            0.9894734548668931,
+            0.9887012277608122,
+            0.9888795535678252,
+            0.9778484258024818,
+            0.9730916373533263
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8593795163472854,
+          "date_sd": 0.03139695916704742,
+          "values": [
+            0.8208276836664565,
+            0.8753192181263074,
+            0.8794177258528026,
+            0.8819624167320423,
+            0.8815994778086231,
+            0.8171505758974796
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9438501771047677,
+          "date_sd": 0.033396422597831626,
+          "values": [
+            0.8870317167178811,
+            0.9263676845976306,
+            0.970857392693495,
+            0.9665564102905355,
+            0.9718823348638096,
+            0.9404055234652545
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 26.415330150474166,
+          "date_sd": 5.580075041342571,
+          "values": [
+            36.037782087305274,
+            28.828657810900758,
+            22.18172396213281,
+            21.458746004978515,
+            22.67622176794356,
+            27.308849269584066
+          ]
+        },
+        "hd95_m": {
+          "mean": 94.01631992477917,
+          "date_sd": 53.78771147169106,
+          "values": [
+            189.73665961010278,
+            127.27922061357854,
+            60.0,
+            60.0,
+            60.0,
+            67.0820393249937
+          ]
+        }
+      },
+      "lake:Dianchi_Waihai": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9908508793205661,
+          "date_sd": 0.0014531570065435119,
+          "values": [
+            0.9898233421471105,
+            0.9918784164940219
+          ]
+        },
+        "recall": {
+          "mean": 0.9964989504292338,
+          "date_sd": 0.0014942455765039938,
+          "values": [
+            0.9954423592493298,
+            0.9975555416091377
+          ]
+        },
+        "f1": {
+          "mean": 0.993666888798713,
+          "date_sd": 0.00147359642066313,
+          "values": [
+            0.9926248987769299,
+            0.9947088788204962
+          ]
+        },
+        "iou": {
+          "mean": 0.9874156201178936,
+          "date_sd": 0.0029102178111575835,
+          "values": [
+            0.9853577853688943,
+            0.9894734548668931
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.848073450896382,
+          "date_sd": 0.038531333533820995,
+          "values": [
+            0.8208276836664565,
+            0.8753192181263074
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9066997006577558,
+          "date_sd": 0.027814729632307147,
+          "values": [
+            0.8870317167178811,
+            0.9263676845976306
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 32.43321994910302,
+          "date_sd": 5.097620662262195,
+          "values": [
+            36.037782087305274,
+            28.828657810900758
+          ]
+        },
+        "hd95_m": {
+          "mean": 158.50794011184067,
+          "date_sd": 44.1640786499874,
+          "values": [
+            189.73665961010278,
+            127.27922061357854
+          ]
+        }
+      },
+      "lake:Erhai": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9957322715624807,
+          "date_sd": 0.001605225061197151,
+          "values": [
+            0.9945972060363776,
+            0.9968673370885838
+          ]
+        },
+        "recall": {
+          "mean": 0.9930010603677678,
+          "date_sd": 0.0014692600000615137,
+          "values": [
+            0.9940399840771375,
+            0.9919621366583982
+          ]
+        },
+        "f1": {
+          "mean": 0.9943636024146897,
+          "date_sd": 6.376042026943638e-05,
+          "values": [
+            0.9943185169891459,
+            0.9944086878402335
+          ]
+        },
+        "iou": {
+          "mean": 0.9887903906643187,
+          "date_sd": 0.00012609538739948888,
+          "values": [
+            0.9887012277608122,
+            0.9888795535678252
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8806900712924225,
+          "date_sd": 0.0017993681767339478,
+          "values": [
+            0.8794177258528026,
+            0.8819624167320423
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9687069014920153,
+          "date_sd": 0.00304125382289668,
+          "values": [
+            0.970857392693495,
+            0.9665564102905355
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 21.820234983555665,
+          "date_sd": 0.5112226161521997,
+          "values": [
+            22.18172396213281,
+            21.458746004978515
+          ]
+        },
+        "hd95_m": {
+          "mean": 60.0,
+          "date_sd": 0.0,
+          "values": [
+            60.0,
+            60.0
+          ]
+        }
+      },
+      "lake:Xingyun": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9862495018188885,
+          "date_sd": 0.0011824031454259686,
+          "values": [
+            0.9870855871011155,
+            0.9854134165366615
+          ]
+        },
+        "recall": {
+          "mean": 0.988916897245351,
+          "date_sd": 0.0022681360060702264,
+          "values": [
+            0.9905207115958966,
+            0.9873130828948053
+          ]
+        },
+        "f1": {
+          "mean": 0.9875812504915988,
+          "date_sd": 0.0017238067351349588,
+          "values": [
+            0.9888001659234678,
+            0.9863623350597298
+          ]
+        },
+        "iou": {
+          "mean": 0.975470031577904,
+          "date_sd": 0.0033635573690676966,
+          "values": [
+            0.9778484258024818,
+            0.9730916373533263
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8493750268530513,
+          "date_sd": 0.04557225558139621,
+          "values": [
+            0.8815994778086231,
+            0.8171505758974796
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9561439291645321,
+          "date_sd": 0.022257466790048305,
+          "values": [
+            0.9718823348638096,
+            0.9404055234652545
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 24.992535518763813,
+          "date_sd": 3.2757623211212956,
+          "values": [
+            22.67622176794356,
+            27.308849269584066
+          ]
+        },
+        "hd95_m": {
+          "mean": 63.54101966249685,
+          "date_sd": 5.007758031332846,
+          "values": [
+            60.0,
+            67.0820393249937
+          ]
+        }
+      },
+      "season:dry": {
+        "n_dates": 3,
+        "precision": {
+          "mean": 0.9905020450948679,
+          "date_sd": 0.003801523776805539,
+          "values": [
+            0.9898233421471105,
+            0.9945972060363776,
+            0.9870855871011155
+          ]
+        },
+        "recall": {
+          "mean": 0.993334351640788,
+          "date_sd": 0.0025355653723691408,
+          "values": [
+            0.9954423592493298,
+            0.9940399840771375,
+            0.9905207115958966
+          ]
+        },
+        "f1": {
+          "mean": 0.9919145272298479,
+          "date_sd": 0.0028269277355807178,
+          "values": [
+            0.9926248987769299,
+            0.9943185169891459,
+            0.9888001659234678
+          ]
+        },
+        "iou": {
+          "mean": 0.9839691463107294,
+          "date_sd": 0.005558063188924785,
+          "values": [
+            0.9853577853688943,
+            0.9887012277608122,
+            0.9778484258024818
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8606149624426275,
+          "date_sd": 0.03447405799595888,
+          "values": [
+            0.8208276836664565,
+            0.8794177258528026,
+            0.8815994778086231
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9432571480917286,
+          "date_sd": 0.04869534861251687,
+          "values": [
+            0.8870317167178811,
+            0.970857392693495,
+            0.9718823348638096
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 26.96524260579388,
+          "date_sd": 7.8609389708021,
+          "values": [
+            36.037782087305274,
+            22.18172396213281,
+            22.67622176794356
+          ]
+        },
+        "hd95_m": {
+          "mean": 103.24555320336759,
+          "date_sd": 74.90349534965569,
+          "values": [
+            189.73665961010278,
+            60.0,
+            60.0
+          ]
+        }
+      },
+      "season:wet": {
+        "n_dates": 3,
+        "precision": {
+          "mean": 0.9913863900397558,
+          "date_sd": 0.0057427903954619716,
+          "values": [
+            0.9918784164940219,
+            0.9968673370885838,
+            0.9854134165366615
+          ]
+        },
+        "recall": {
+          "mean": 0.9922769203874471,
+          "date_sd": 0.005128479962499248,
+          "values": [
+            0.9975555416091377,
+            0.9919621366583982,
+            0.9873130828948053
+          ]
+        },
+        "f1": {
+          "mean": 0.9918266339068199,
+          "date_sd": 0.0047346013637781376,
+          "values": [
+            0.9947088788204962,
+            0.9944086878402335,
+            0.9863623350597298
+          ]
+        },
+        "iou": {
+          "mean": 0.9838148819293483,
+          "date_sd": 0.00929134868391808,
+          "values": [
+            0.9894734548668931,
+            0.9888795535678252,
+            0.9730916373533263
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8581440702519432,
+          "date_sd": 0.03565645743018903,
+          "values": [
+            0.8753192181263074,
+            0.8819624167320423,
+            0.8171505758974796
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9444432061178069,
+          "date_sd": 0.0203963373944179,
+          "values": [
+            0.9263676845976306,
+            0.9665564102905355,
+            0.9404055234652545
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 25.865417695154445,
+          "date_sd": 3.891210742084434,
+          "values": [
+            28.828657810900758,
+            21.458746004978515,
+            27.308849269584066
+          ]
+        },
+        "hd95_m": {
+          "mean": 84.78708664619076,
+          "date_sd": 36.96924271711571,
+          "values": [
+            127.27922061357854,
+            60.0,
+            67.0820393249937
+          ]
+        }
+      }
+    },
+    "parameter_matched_ordinary_conv": {
+      "all_18_dates": {
+        "n_dates": 6,
+        "precision": {
+          "mean": 0.9907756341012375,
+          "date_sd": 0.00476022551693987,
+          "values": [
+            0.9899269330488395,
+            0.9909870589005522,
+            0.9949668825298427,
+            0.997237497454128,
+            0.9870032362459547,
+            0.9845321964281072
+          ]
+        },
+        "recall": {
+          "mean": 0.9923628138831379,
+          "date_sd": 0.003882160447594444,
+          "values": [
+            0.9950620362865515,
+            0.9974582653445463,
+            0.9938556916862017,
+            0.9911119780357287,
+            0.9900792104921439,
+            0.986609701453655
+          ]
+        },
+        "f1": {
+          "mean": 0.9915641563843874,
+          "date_sd": 0.0036829220306190233,
+          "values": [
+            0.9924878424934394,
+            0.9942121321591829,
+            0.9944109766868948,
+            0.9941653022838568,
+            0.9885388305458317,
+            0.985569854137119
+          ]
+        },
+        "iou": {
+          "mean": 0.9832914344962079,
+          "date_sd": 0.007223913746994526,
+          "values": [
+            0.9850877084696384,
+            0.9884908775977933,
+            0.9888840805069827,
+            0.9883982969977244,
+            0.9773374009793114,
+            0.9715502424257971
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8403415713930631,
+          "date_sd": 0.03561111916381239,
+          "values": [
+            0.7994151612335136,
+            0.8273518872088621,
+            0.8773723157078168,
+            0.8689251423634717,
+            0.8679613670608998,
+            0.8010235547838142
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9383902938832079,
+          "date_sd": 0.03271631694586447,
+          "values": [
+            0.8880309629917461,
+            0.915559293587139,
+            0.9665433899940742,
+            0.9619237189314982,
+            0.968074239888227,
+            0.9302101579065635
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 27.467378178127962,
+          "date_sd": 5.903473085867911,
+          "values": [
+            36.71255695617737,
+            31.663901677561768,
+            22.3916515230297,
+            22.25643027093628,
+            23.313359600190275,
+            28.466369040872387
+          ]
+        },
+        "hd95_m": {
+          "mean": 95.35533905932738,
+          "date_sd": 49.079844900497164,
+          "values": [
+            180.0,
+            127.27922061357854,
+            60.0,
+            60.0,
+            60.0,
+            84.8528137423857
+          ]
+        }
+      },
+      "lake:Dianchi_Waihai": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9904569959746958,
+          "date_sd": 0.0007496221786571916,
+          "values": [
+            0.9899269330488395,
+            0.9909870589005522
+          ]
+        },
+        "recall": {
+          "mean": 0.9962601508155489,
+          "date_sd": 0.0016943898161843388,
+          "values": [
+            0.9950620362865515,
+            0.9974582653445463
+          ]
+        },
+        "f1": {
+          "mean": 0.9933499873263112,
+          "date_sd": 0.0012192569153771577,
+          "values": [
+            0.9924878424934394,
+            0.9942121321591829
+          ]
+        },
+        "iou": {
+          "mean": 0.9867892930337159,
+          "date_sd": 0.0024064039680430117,
+          "values": [
+            0.9850877084696384,
+            0.9884908775977933
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8133835242211879,
+          "date_sd": 0.019754248381319266,
+          "values": [
+            0.7994151612335136,
+            0.8273518872088621
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9017951282894425,
+          "date_sd": 0.019465469238747382,
+          "values": [
+            0.8880309629917461,
+            0.915559293587139
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 34.18822931686957,
+          "date_sd": 3.569938383382353,
+          "values": [
+            36.71255695617737,
+            31.663901677561768
+          ]
+        },
+        "hd95_m": {
+          "mean": 153.63961030678928,
+          "date_sd": 37.27922061357856,
+          "values": [
+            180.0,
+            127.27922061357854
+          ]
+        }
+      },
+      "lake:Erhai": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9961021899919853,
+          "date_sd": 0.0016055672104255676,
+          "values": [
+            0.9949668825298427,
+            0.997237497454128
+          ]
+        },
+        "recall": {
+          "mean": 0.9924838348609653,
+          "date_sd": 0.001940098527883548,
+          "values": [
+            0.9938556916862017,
+            0.9911119780357287
+          ]
+        },
+        "f1": {
+          "mean": 0.9942881394853758,
+          "date_sd": 0.00017371803635214155,
+          "values": [
+            0.9944109766868948,
+            0.9941653022838568
+          ]
+        },
+        "iou": {
+          "mean": 0.9886411887523536,
+          "date_sd": 0.0003435008135851558,
+          "values": [
+            0.9888840805069827,
+            0.9883982969977244
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.8731487290356443,
+          "date_sd": 0.005973053553644655,
+          "values": [
+            0.8773723157078168,
+            0.8689251423634717
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9642335544627862,
+          "date_sd": 0.0032666007351987475,
+          "values": [
+            0.9665433899940742,
+            0.9619237189314982
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 22.324040896982993,
+          "date_sd": 0.09561586431579257,
+          "values": [
+            22.3916515230297,
+            22.25643027093628
+          ]
+        },
+        "hd95_m": {
+          "mean": 60.0,
+          "date_sd": 0.0,
+          "values": [
+            60.0,
+            60.0
+          ]
+        }
+      },
+      "lake:Xingyun": {
+        "n_dates": 2,
+        "precision": {
+          "mean": 0.9857677163370309,
+          "date_sd": 0.0017472890117819135,
+          "values": [
+            0.9870032362459547,
+            0.9845321964281072
+          ]
+        },
+        "recall": {
+          "mean": 0.9883444559728994,
+          "date_sd": 0.0024533133685034915,
+          "values": [
+            0.9900792104921439,
+            0.986609701453655
+          ]
+        },
+        "f1": {
+          "mean": 0.9870543423414753,
+          "date_sd": 0.0020993833517836628,
+          "values": [
+            0.9885388305458317,
+            0.985569854137119
+          ]
+        },
+        "iou": {
+          "mean": 0.9744438217025543,
+          "date_sd": 0.004092139056991696,
+          "values": [
+            0.9773374009793114,
+            0.9715502424257971
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.834492460922357,
+          "date_sd": 0.04733218097891938,
+          "values": [
+            0.8679613670608998,
+            0.8010235547838142
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9491421988973953,
+          "date_sd": 0.026773949132637684,
+          "values": [
+            0.968074239888227,
+            0.9302101579065635
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 25.88986432053133,
+          "date_sd": 3.64372791902462,
+          "values": [
+            23.313359600190275,
+            28.466369040872387
+          ]
+        },
+        "hd95_m": {
+          "mean": 72.42640687119285,
+          "date_sd": 17.57359312880715,
+          "values": [
+            60.0,
+            84.8528137423857
+          ]
+        }
+      },
+      "season:dry": {
+        "n_dates": 3,
+        "precision": {
+          "mean": 0.9906323506082123,
+          "date_sd": 0.004028414822672118,
+          "values": [
+            0.9899269330488395,
+            0.9949668825298427,
+            0.9870032362459547
+          ]
+        },
+        "recall": {
+          "mean": 0.9929989794882991,
+          "date_sd": 0.0025995393951390735,
+          "values": [
+            0.9950620362865515,
+            0.9938556916862017,
+            0.9900792104921439
+          ]
+        },
+        "f1": {
+          "mean": 0.991812549908722,
+          "date_sd": 0.0029937501785772596,
+          "values": [
+            0.9924878424934394,
+            0.9944109766868948,
+            0.9885388305458317
+          ]
+        },
+        "iou": {
+          "mean": 0.9837697299853109,
+          "date_sd": 0.005885087296935253,
+          "values": [
+            0.9850877084696384,
+            0.9888840805069827,
+            0.9773374009793114
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.84824961466741,
+          "date_sd": 0.04255284209367545,
+          "values": [
+            0.7994151612335136,
+            0.8773723157078168,
+            0.8679613670608998
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.940882864291349,
+          "date_sd": 0.045777488775454254,
+          "values": [
+            0.8880309629917461,
+            0.9665433899940742,
+            0.968074239888227
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 27.472522693132447,
+          "date_sd": 8.015364079788196,
+          "values": [
+            36.71255695617737,
+            22.3916515230297,
+            23.313359600190275
+          ]
+        },
+        "hd95_m": {
+          "mean": 100.0,
+          "date_sd": 69.2820323027551,
+          "values": [
+            180.0,
+            60.0,
+            60.0
+          ]
+        }
+      },
+      "season:wet": {
+        "n_dates": 3,
+        "precision": {
+          "mean": 0.9909189175942625,
+          "date_sd": 0.006352924599636674,
+          "values": [
+            0.9909870589005522,
+            0.997237497454128,
+            0.9845321964281072
+          ]
+        },
+        "recall": {
+          "mean": 0.9917266482779766,
+          "date_sd": 0.005450339370508632,
+          "values": [
+            0.9974582653445463,
+            0.9911119780357287,
+            0.986609701453655
+          ]
+        },
+        "f1": {
+          "mean": 0.991315762860053,
+          "date_sd": 0.004976158010807334,
+          "values": [
+            0.9942121321591829,
+            0.9941653022838568,
+            0.985569854137119
+          ]
+        },
+        "iou": {
+          "mean": 0.982813139007105,
+          "date_sd": 0.009754064401202394,
+          "values": [
+            0.9884908775977933,
+            0.9883982969977244,
+            0.9715502424257971
+          ]
+        },
+        "boundary_f1_30m": {
+          "mean": 0.832433528118716,
+          "date_sd": 0.03423483174651225,
+          "values": [
+            0.8273518872088621,
+            0.8689251423634717,
+            0.8010235547838142
+          ]
+        },
+        "boundary_f1_60m": {
+          "mean": 0.9358977234750668,
+          "date_sd": 0.023699710672288484,
+          "values": [
+            0.915559293587139,
+            0.9619237189314982,
+            0.9302101579065635
+          ]
+        },
+        "mean_symmetric_boundary_distance_m": {
+          "mean": 27.46223366312348,
+          "date_sd": 4.7834449363669105,
+          "values": [
+            31.663901677561768,
+            22.25643027093628,
+            28.466369040872387
+          ]
+        },
+        "hd95_m": {
+          "mean": 90.71067811865476,
+          "date_sd": 34.01998402234655,
+          "values": [
+            127.27922061357854,
+            60.0,
+            84.8528137423857
+          ]
+        }
+      }
+    }
+  },
+  "paired_date_effects": {
+    "deep_prewitt_vs_spatial_prior": {
+      "boundary_f1_30m": {
+        "n_dates": 6,
+        "mean_improvement": 0.021811605930876166,
+        "bootstrap_95_ci": [
+          0.01095482536203555,
+          0.03215344008903853
+        ],
+        "dates_improved": 5,
+        "dates_tied": 0,
+        "dates_worsened": 1,
+        "wilcoxon_two_sided_p": 0.046399461870904594
+      },
+      "asd_reduction_m": {
+        "n_dates": 6,
+        "mean_improvement": 1.3624676434569771,
+        "bootstrap_95_ci": [
+          0.6202882726826994,
+          2.0839578591866688
+        ],
+        "dates_improved": 6,
+        "dates_tied": 0,
+        "dates_worsened": 0,
+        "wilcoxon_two_sided_p": 0.027707849358079864
+      }
+    },
+    "deep_prewitt_vs_parameter_matched_ordinary_conv": {
+      "boundary_f1_30m": {
+        "n_dates": 6,
+        "mean_improvement": 0.019037944954222247,
+        "bootstrap_95_ci": [
+          0.009452174725022744,
+          0.03163235762123171
+        ],
+        "dates_improved": 6,
+        "dates_tied": 0,
+        "dates_worsened": 0,
+        "wilcoxon_two_sided_p": 0.027707849358079864
+      },
+      "asd_reduction_m": {
+        "n_dates": 6,
+        "mean_improvement": 1.0520480276538002,
+        "bootstrap_95_ci": [
+          0.519825766213696,
+          1.8229211726274634
+        ],
+        "dates_improved": 6,
+        "dates_tied": 0,
+        "dates_worsened": 0,
+        "wilcoxon_two_sided_p": 0.027707849358079864
+      }
+    }
+  }
+}
