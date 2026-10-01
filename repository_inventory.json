@@ -1,7 +1,13 @@
 {
   "repository": "fuxian-shoreline-deep-prewitt",
-  "file_count": 102,
-  "total_bytes": 15217540,
+  "version": "1.1.0",
+  "file_count": 104,
+  "total_bytes": 39928490,
   "raw_satellite_imagery_included": false,
-  "contains_credentials": false
+  "contains_credentials": false,
+  "numerical_cache_archive_status": "published",
+  "numerical_cache_location": "https://doi.org/10.5281/zenodo.23083486",
+  "archive_record": "https://zenodo.org/records/23083486",
+  "original_published_archive": "https://doi.org/10.5281/zenodo.23050761",
+  "checksum_scope": "All repository files except SHA256SUMS.txt; inventory metadata included."
 }

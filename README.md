@@ -1,3 +1,11 @@
+# Current reproduction archive (version 1.1.0)
+
+The complete version 1.1.0 archive is publicly available at https://doi.org/10.5281/zenodo.23083486. It includes source, nine frozen neural checkpoints, six manually delineated reference shorelines and the completed index/JRC, expanded-scope and temporal analyses. The compact numerical cache and verification script independently reproduce 192 rows and all eight metrics. This verifies thresholds and evaluation, not training or inference; original provider imagery is required for those stages.
+
+The file v1.1.0_source_and_weights.zip in this repository supplies the updated research source and weights. Download the complete Zenodo archive for numerical caches. CITATION.cff supplies the version-specific software citation. The original v1.0.0 archive remains available at https://doi.org/10.5281/zenodo.23050761. All methods and unfavourable comparisons are retained.
+
+## Original repository description
+
 # Fuxian Lake shoreline extraction with spatial priors and deep Prewitt gradients
 
 This repository contains the code, Google Earth Engine export scripts, frozen data-split manifests, and numerical result tables supporting the manuscript **Fine shoreline extraction of Fuxian Lake using spatial-prior constraints and a deep Prewitt gradient branch**.
@@ -58,11 +66,11 @@ The locked evaluation scripts intentionally refuse to overwrite an existing form
 
 ## Statistical conventions
 
-Metrics are first averaged over three frozen random seeds within each date. Date-level summaries report means and sample standard deviations. Paired six-date comparisons use the exact two-sided Wilcoxon signed-rank distribution. Cross-lake and manually reviewed subsets additionally use lake-equal summaries and a two-stage lake-date hierarchical bootstrap. With only three independent lakes, the hierarchical intervals describe cross-lake consistency and are not interpreted as population-wide significance.
+The original Fuxian tables average per-seed metrics within each date; cross-lake and manual comparisons evaluate thresholded three-seed mean probabilities. Date-level summaries report means and between-date sample standard deviations. Exact six-date Wilcoxon results remain descriptive because dates can be dependent; the added confirmation sensitivity groups the six dates into three temporal episodes. Cross-lake and manual comparisons use lake-equal summaries and a two-stage lake-date hierarchical bootstrap. With only three lakes, the intervals describe consistency in the observed lakes and are not interpreted as population-wide significance. The post-review index/JRC comparison retains all dates and outcomes.
 
 ## Reproducibility scope
 
-The files in `results/` are machine-readable outputs used to audit the manuscript tables and figures. Large raster inputs, intermediate reference rasters, and model checkpoints are omitted from this GitHub copy. A versioned archival release can attach these larger artifacts separately when redistribution is permitted.
+The files in `results/` are machine-readable outputs used to audit the manuscript tables and figures. Raw satellite raster inputs are omitted. The updated checkpoints are included in v1.1.0_source_and_weights.zip. Compact verification caches and the complete current numerical outputs are available in the published version 1.1.0 Zenodo archive. The older top-level source/results folders are retained for the earlier snapshot; use the version 1.1.0 package for the current analysis.
 
 ## License
 

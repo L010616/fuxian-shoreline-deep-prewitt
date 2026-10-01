@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software or its reproduction materials, please cite this archive."
+title: "Fuxian Lake shoreline extraction reproducibility package"
+version: "1.1.0"
+date-released: 2026-10-01
+authors:
+  - family-names: Liu
+    given-names: Jie
+    affiliation: Yunnan Agricultural University
+  - family-names: Li
+    given-names: Jian-hua
+    affiliation: Yunnan Agricultural University
+doi: 10.5281/zenodo.23083486
+repository-code: "https://github.com/L010616/fuxian-shoreline-deep-prewitt"
+license: MIT
